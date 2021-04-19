@@ -2,7 +2,11 @@ pipeline {
     environment {
         PATH = "C:\\WINDOWS\\SYSTEM32;C:\\Tools\\Java\\jdk-15.0.2\\bin"
     }
-    agent any
+    agent {
+
+	node { label "test" }
+
+	}
     
     tools {
         maven 'M3'
