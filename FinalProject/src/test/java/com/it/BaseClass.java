@@ -32,11 +32,11 @@ public class BaseClass {
         driver.findElement(By.name("password")).sendKeys(PassWord);
         driver.findElement(By.id("submit-login")).submit();
     }
-
+/*
     @AfterEach
     public void tearDown(){
         //Close the Chrome webpage after performing each test case
         driver.quit();
     }
-
+*/
 }
