@@ -76,7 +76,6 @@ public class TestClothsMen extends ClothsMen {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         WebElement E9 = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/a/img"));
-        js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", E9 );
         Actions action1 = new Actions(driver);
         action1.moveToElement(E9).perform();

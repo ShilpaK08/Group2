@@ -20,6 +20,7 @@ public class BaseClass {
     public void openUp(){
         //open the Chrome webdriver and maximize the window before performing each test case
         driver = new ChromeDriver();
+        js = (JavascriptExecutor) driver;
         driver.get("http://40.76.27.113:8085/en/");
         driver.manage().window().maximize();
 
@@ -36,7 +37,7 @@ public class BaseClass {
    @AfterEach
     public void tearDown(){
         //Close the Chrome webpage after performing each test case
-        driver.quit();
+        //driver.quit();
     }
 
 }
