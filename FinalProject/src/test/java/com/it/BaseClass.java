@@ -36,8 +36,8 @@ public class BaseClass {
 
    @AfterEach
     public void tearDown(){
-        //Close the Chrome webpage after performing each test case
-        //driver.quit();
+       // Close the Chrome webpage after performing each test case
+        driver.quit();
     }
 
 }
