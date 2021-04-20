@@ -12,8 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 public class BaseClass {
-    static WebDriver driver1;
-    static JavascriptExecutor js;
+    public static WebDriver driver1;
+    public static JavascriptExecutor js;
 
     public static String White = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[1]/label/a";
     public static String Black = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[2]/label/a";
@@ -37,8 +37,8 @@ public class BaseClass {
 
     public static void openPage() {
 
-        //driver1 = new ChromeDriver();
-        driver1 = new FirefoxDriver();
+        driver1 = new ChromeDriver();
+        //driver1 = new FirefoxDriver();
         js = (JavascriptExecutor) driver1;
         driver1.get("http://40.76.27.113:8085/en/8-home-accessories");
         driver1.manage().window().maximize();

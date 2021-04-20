@@ -11,9 +11,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseClass {
 
-    static WebDriver driver;
+   public static WebDriver driver;
 
-    static JavascriptExecutor js;
+   public static JavascriptExecutor js;
 
 
     @BeforeEach
@@ -33,7 +33,7 @@ public class BaseClass {
         driver.findElement(By.id("submit-login")).submit();
     }
 
-    @AfterEach
+   @AfterEach
     public void tearDown(){
         //Close the Chrome webpage after performing each test case
         driver.quit();

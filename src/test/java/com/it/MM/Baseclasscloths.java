@@ -1,20 +1,18 @@
-package com.it.base;
+package com.it.MM;
 
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import javax.lang.model.element.Element;
 
 public class Baseclasscloths {
 
     static WebDriver D1;
     static WebElement E1, E2, E3;
     static JavascriptExecutor js;
+
 
     //To open a chrome/firefox window
     @BeforeAll
