@@ -1,6 +1,6 @@
 package com.it;
 
-import com.it.bs;
+import com.it.BaseClass;
 import org.openqa.selenium.*;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import static com.it.bs.*;
+import static com.it.BaseClass.*;
 
 public class TestClothesWomen extends BaseClass{
     public static String Checkbox1 = "//*[@id=\"facet_1054\"]/li[1]/label/span/span";

@@ -5,8 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import static org.junit.jupiter.api.Assertions.*;
+import static com.it.BaseClass.*;
 
-public class TestClothesWomen extends ClothesWomen {
+
+public class TestClothesWomen extends Clotheswomen {
 
     @Test
     public void testCorrectUrl() {
