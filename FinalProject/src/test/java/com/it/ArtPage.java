@@ -6,10 +6,14 @@ import org.openqa.selenium.WebElement;
 
 public class ArtPage extends BaseClass{
 
-        public void OpenArtTab() {    driver.get("http://40.76.27.113:8085/en/9-art");    }
 
-        public void Composition() throws InterruptedException {
-            driver.get("http://40.76.27.113:8085/en/9-art");
+    public static String Matt_paper = "//*[@id=\"facet_97882\"]/li/label/a";
+
+        public void OpenArtTab() {    driver.findElement(By.xpath("//*[@id=\"_desktop_top_menu\"]")).click();    }
+
+        public void Composition(String composition) throws InterruptedException {
+            //driver.get("http://40.76.27.113:8085/en/9-art");
+            OpenArtTab();
             driver.findElement(By.partialLinkText("Matt pap")).click();
             Thread.sleep(1000);
         }

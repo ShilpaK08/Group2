@@ -19,7 +19,8 @@ public class TestArtPage extends ArtPage {
 
     @Test
     public void TestComposition() throws InterruptedException {
-        Composition();
+        Composition(Matt_paper);
+        assertTrue(driver.findElement(By.xpath()).isEnabled());
         String expUrl1 = "http://40.76.27.113:8085/en/9-art?q=Composition-Matt+paper";
         String curUrl1 = driver.getCurrentUrl();
         assertEquals(expUrl1,curUrl1);
