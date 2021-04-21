@@ -1,4 +1,4 @@
-package com.it.pop;
+package com.it;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
