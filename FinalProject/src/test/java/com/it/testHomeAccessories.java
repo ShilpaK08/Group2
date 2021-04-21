@@ -1,4 +1,4 @@
-package com.it.pop;
+package com.it;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -18,7 +18,7 @@ public class testHomeAccessories extends HomeAccessories{
         Thread.sleep(1000);
         selectDropDown(dropdown, 1);
 
-        assertTrue(driver1.findElement(By.xpath(dropdown)).isEnabled());
+        assertTrue(driver.findElement(By.xpath(dropdown)).isEnabled());
     }
     @Test
     public void testColor() throws InterruptedException {
@@ -26,33 +26,33 @@ public class testHomeAccessories extends HomeAccessories{
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Color(White);
-        assertTrue(driver1.findElement(By.xpath(FilterResult)).isEnabled());
+        assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
     }
     @Test
     public void testComposition() throws InterruptedException {
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Composition(Ceramic);
-        assertTrue(driver1.findElement(By.xpath(FilterResult)).isEnabled());
+        assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
     }
     @Test
     public void testProperty() throws InterruptedException {
         openHomeAcc(Accessories);
         Thread.sleep(1000);
-        WebElement Element = driver1.findElement(By.xpath(nextpage));
+        WebElement Element = driver.findElement(By.xpath(nextpage));
         js.executeScript("arguments[0].scrollIntoView();", Element);
 
         Property(RemovableCover);
-        assertTrue(driver1.findElement(By.xpath(FilterResult)).isEnabled());
+        assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
     }
     @Test
     public void testBrand() throws InterruptedException {
         openHomeAcc(Accessories);
         Thread.sleep(1000);
-        WebElement Element = driver1.findElement(By.xpath(nextpage));
+        WebElement Element = driver.findElement(By.xpath(nextpage));
         js.executeScript("arguments[0].scrollIntoView();", Element);
         Brand(StudioDesign);
-        assertTrue(driver1.findElement(By.xpath(FilterResult)).isEnabled());
+        assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
     }
     @Test
     public void testOneItem() throws InterruptedException {
@@ -60,11 +60,11 @@ public class testHomeAccessories extends HomeAccessories{
         Thread.sleep(1000);
         Item(IsAGoodDay);
 
-        assertEquals(driver1.getCurrentUrl(), "http://40.76.27.113:8085/en/home-accessories/8-mug-today-is-a-good-day.html");
+        assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/home-accessories/8-mug-today-is-a-good-day.html");
     }
     @Test
     public void testAddToCart() throws InterruptedException {
-        int windowCount = driver1.getWindowHandles().size();
+        int windowCount = driver.getWindowHandles().size();
 
         openHomeAcc(Accessories);
         Thread.sleep(1000);
@@ -73,9 +73,9 @@ public class testHomeAccessories extends HomeAccessories{
         Quantity(quantity);
         Thread.sleep(1000);
         AddCart(add);
-        WebDriverWait wait = new WebDriverWait(driver1, 60);
+        WebDriverWait wait = new WebDriverWait(driver, 60);
 
-        int currentSize = driver1.getWindowHandles().size();
+        int currentSize = driver.getWindowHandles().size();
 
 
         Assertions.assertEquals(windowCount, currentSize);
@@ -90,20 +90,20 @@ public class testHomeAccessories extends HomeAccessories{
         Item(IsAGoodDay);
         Thread.sleep(1000);
         clickDescription(description);
-        assertTrue(driver1.findElement(By.xpath(DescriptionResult)).isDisplayed());
+        assertTrue(driver.findElement(By.xpath(DescriptionResult)).isDisplayed());
     }
     @Test
     public void testShareLink() throws InterruptedException {
-        int windowCount2 = driver1.getWindowHandles().size();
+        int windowCount2 = driver.getWindowHandles().size();
 
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Item(IsAGoodDay);
         Thread.sleep(1000);
         clickShare(fb);
-        WebDriverWait wait = new WebDriverWait(driver1, 60);
+        WebDriverWait wait = new WebDriverWait(driver, 60);
 
-        int currentSize2 = driver1.getWindowHandles().size();
+        int currentSize2 = driver.getWindowHandles().size();
         int expectSize2 = windowCount2 + 1;
 
         Assertions.assertEquals(expectSize2, currentSize2);
@@ -112,11 +112,11 @@ public class testHomeAccessories extends HomeAccessories{
     public void testqView() throws InterruptedException {
         openHomeAcc(Accessories);
         Thread.sleep(1000);
-        //WebElement Element = driver1.findElement(By.xpath(nextpage));
+        //WebElement Element = driver.findElement(By.xpath(nextpage));
         //js.executeScript("arguments[0].scrollIntoView();", Element);
         //Thread.sleep(1000);
         clickView(IsAGoodDay);
 
-        //assertTrue(driver1.findElement(By.xpath(FilterResult)).isEnabled());
+        //assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
     }
 }
