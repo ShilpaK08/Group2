@@ -1,4 +1,4 @@
-package com.it.pop;
+package com.it;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
