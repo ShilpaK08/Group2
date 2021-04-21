@@ -1,5 +1,6 @@
 package com.it;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.openqa.selenium.By;
@@ -19,8 +20,7 @@ public class TestArtPage extends ArtPage {
 
     @Test
     public void TestComposition() throws InterruptedException {
-        Composition(Matt_paper);
-        assertTrue(driver.findElement(By.xpath()).isEnabled());
+        Composition();
         String expUrl1 = "http://40.76.27.113:8085/en/9-art?q=Composition-Matt+paper";
         String curUrl1 = driver.getCurrentUrl();
         assertEquals(expUrl1,curUrl1);
@@ -36,11 +36,10 @@ public class TestArtPage extends ArtPage {
 
     @Test
     public void TestDimensions() throws InterruptedException {
-        Dimensions();
-        String expUrl1 = "http://40.76.27.113:8085/en/9-art?q=Dimension-60x90cm";
-        String curUrl1 = driver.getCurrentUrl();
-        assertEquals(expUrl1,curUrl1);
-
+        Dimensions(sixtyninty);
+        assertTrue(driver.findElement(By.xpath("//*[@id=\"facet_72656\"]/li[2]/label/span/span/i")).isEnabled());
+        String curText = driver.findElement(By.xpath("//*[@id=\"js-active-search-filters\"]/p")).getText();
+        Assertions.assertEquals(curText, "Active filters");
     }
 
     @Test

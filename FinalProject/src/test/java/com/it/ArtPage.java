@@ -6,12 +6,11 @@ import org.openqa.selenium.WebElement;
 
 public class ArtPage extends BaseClass{
 
+        public static String sixtyninty = "//*[@id=\"facet_12124\"]/li[2]/label/a";
 
-    public static String Matt_paper = "//*[@id=\"facet_97882\"]/li/label/a";
+       public void OpenArtTab() {    driver.findElement(By.xpath("//*[@id=\"_desktop_top_menu\"]")).click();    }
 
-        public void OpenArtTab() {    driver.findElement(By.xpath("//*[@id=\"_desktop_top_menu\"]")).click();    }
-
-        public void Composition(String composition) throws InterruptedException {
+        public void Composition() throws InterruptedException {
             //driver.get("http://40.76.27.113:8085/en/9-art");
             OpenArtTab();
             driver.findElement(By.partialLinkText("Matt pap")).click();
@@ -24,11 +23,11 @@ public class ArtPage extends BaseClass{
             Thread.sleep(1000);
         }
 
-        public void Dimensions() throws InterruptedException {
+        public void Dimensions(String Size) throws InterruptedException {
             driver.get("http://40.76.27.113:8085/en/9-art");
             //Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.partialLinkText("60x90")).click();
+            driver.findElement(By.xpath(Size)).click();
             Thread.sleep(1000);
         }
 
