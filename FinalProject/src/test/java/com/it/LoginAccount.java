@@ -8,9 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LoginAccount {
-
-    static WebDriver driver = new ChromeDriver();
+public class LoginAccount extends BaseClass{
+    
 
     @Test
     public void loginErrorMessage(){
