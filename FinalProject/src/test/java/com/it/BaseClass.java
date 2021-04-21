@@ -33,7 +33,6 @@ public class BaseClass {
         driver.findElement(By.name("password")).sendKeys(PassWord);
         driver.findElement(By.id("submit-login")).submit();
     }
-<<<<<<< HEAD
 /*
     @AfterEach
 =======
