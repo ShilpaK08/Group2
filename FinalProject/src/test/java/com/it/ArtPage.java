@@ -2,6 +2,7 @@ package com.it;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 
 public class ArtPage extends BaseClass{
 
@@ -21,11 +22,31 @@ public class ArtPage extends BaseClass{
 
         public void Dimensions() throws InterruptedException {
             driver.get("http://40.76.27.113:8085/en/9-art");
-            Thread.sleep(1000);
+            //Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,150)");
             driver.findElement(By.partialLinkText("60x90")).click();
             Thread.sleep(1000);
         }
+
+        public void DoubleFilter() throws InterruptedException {
+            driver.get("http://40.76.27.113:8085/en/9-art");
+            driver.findElement(By.partialLinkText("Graphic Corn")).click();
+            Thread.sleep(1000);
+            driver.findElement(By.partialLinkText("Matt pap")).click();
+            Thread.sleep(1000);
+
+        }
+
+        public void QuickView() throws InterruptedException {
+            WebElement E1;
+            driver.get("http://40.76.27.113:8085/en/9-art");
+            js.executeScript("window.scrollBy(0,350)");
+            E1 = driver.findElement(By.id("category-3"));
+            Thread.sleep(1000);
+            //Bear poster
+            driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article[5]/div/div[2]/a")).click();
+        }
+
 
         public void Zoom() {
             driver.get("http://40.76.27.113:8085/en/9-art");
@@ -38,9 +59,10 @@ public class ArtPage extends BaseClass{
             driver.get("http://40.76.27.113:8085/en/9-art");
             Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[4]/div[1]/a[1]/img[1]")).click();
+            //Mountain fox frame
+            driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article[4]/div/a/img")).click();
             Thread.sleep(1000);
-            js.executeScript("window.scrollBy(0,150)");
+            js.executeScript("window.scrollBy(0,250)");
 
         }
 
