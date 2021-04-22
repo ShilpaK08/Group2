@@ -26,7 +26,7 @@ public class BaseClass {
 
     }
 
-    public void LoginExistingUser(String EmailId, String PassWord){
+    public static void LoginExistingUser(String EmailId, String PassWord){
         //Function to log into the existing user account
         driver.findElement(By.xpath("//*[@id=\"_desktop_user_info\"]/div/a")).click();
         driver.findElement(By.name("email")).sendKeys(EmailId);
