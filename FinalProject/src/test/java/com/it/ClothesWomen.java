@@ -1,7 +1,6 @@
 package com.it;
 
 import org.openqa.selenium.*;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
@@ -26,13 +25,22 @@ public class ClothesWomen extends BaseClass{
         selectdropdown.selectByIndex(index);
     }
 
-    public void filterBy(String checkbox1) {
+    public void filterBy(String checkbox1)
+    {
         WebElement Checkbox1= driver.findElement(By.xpath("//*[@id=\"facet_1054\"]/li[1]/label/span/span"));
         Checkbox1.click();
+    }
+
+    {
+
         WebElement Checkbox2= driver.findElement(By.xpath("//*[@id=\"facet_97297\"]/li[2]/label/span/span/i"));
         Checkbox2.click();
+    }
+     {
         WebElement Checkbox3= driver.findElement(By.xpath("//*[@id=\"facet_37025\"]/li[3]/label/span/span/i"));
         Checkbox3.click();
+     }
+    {
         WebElement Checkbox4= driver.findElement(By.xpath("//*[@id=\"facet_37025\"]/li[4]/label/span/span"));
         Checkbox4.click();
     }

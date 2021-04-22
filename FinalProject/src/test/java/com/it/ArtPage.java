@@ -2,6 +2,7 @@ package com.it;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+<<<<<<< HEAD
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -15,10 +16,15 @@ public class ArtPage extends BaseClass{
        public static String sort = "//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]";
 
         public void OpenArtTab() {    driver.findElement(By.xpath("//a[contains(text(),'Art')]")).click();    }
+=======
+
+public class ArtPage extends BaseClass{
+
+        public void OpenArtTab() {    driver.get("http://40.76.27.113:8085/en/9-art");    }
+>>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
 
         public void Composition() throws InterruptedException {
-            //driver.get("http://40.76.27.113:8085/en/9-art");
-            OpenArtTab();
+            driver.get("http://40.76.27.113:8085/en/9-art");
             driver.findElement(By.partialLinkText("Matt pap")).click();
             Thread.sleep(1000);
         }
@@ -29,8 +35,9 @@ public class ArtPage extends BaseClass{
             Thread.sleep(1000);
         }
 
-        public void Dimensions(String Size) throws InterruptedException {
+        public void Dimensions() throws InterruptedException {
             driver.get("http://40.76.27.113:8085/en/9-art");
+<<<<<<< HEAD
             js.executeScript("window.scrollBy(0,150)");
             Thread.sleep(1000);
             driver.findElement(By.xpath(sixtyninty)).click();
@@ -58,8 +65,13 @@ public class ArtPage extends BaseClass{
             driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article[5]/div/div[2]/a")).click();
             Thread.sleep(2000);
 
+=======
+            Thread.sleep(1000);
+            js.executeScript("window.scrollBy(0,150)");
+            driver.findElement(By.partialLinkText("60x90")).click();
+            Thread.sleep(1000);
+>>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
         }
-
 
         public void Zoom() {
             driver.get("http://40.76.27.113:8085/en/9-art");
@@ -71,11 +83,18 @@ public class ArtPage extends BaseClass{
         public void Description() throws InterruptedException {
             OpenArtTab();
             Thread.sleep(1000);
+<<<<<<< HEAD
             js.executeScript("window.scrollBy(0,200)");
             //Mountain fox frame
             driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[4]/div[1]/a[1]/img[1]")).click();
             Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,300)");
+=======
+            js.executeScript("window.scrollBy(0,150)");
+            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[4]/div[1]/a[1]/img[1]")).click();
+            Thread.sleep(1000);
+            js.executeScript("window.scrollBy(0,150)");
+>>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
 
         }
 
