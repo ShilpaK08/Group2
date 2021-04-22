@@ -20,8 +20,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             @Test
             public void testPaperType() throws InterruptedException
             {
+
                 Thread.sleep(1000);
-                PaperType("Ruled");
+                PaperType(Ruled);
                 assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
 
             }
