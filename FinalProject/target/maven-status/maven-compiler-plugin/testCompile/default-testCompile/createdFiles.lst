@@ -1,7 +1,11 @@
 com\it\TestArtPage.class
+com\it\LoginAccount.class
 com\it\PageSearch.class
 com\it\TestClothsMen.class
 com\it\TestSearchFunction.class
 com\it\ClothsMen.class
+com\it\HomeAccessories.class
 com\it\BaseClass.class
+com\it\ClothesWomen.class
+com\it\testRunner\TestRunner.class
 com\it\ArtPage.class
