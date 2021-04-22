@@ -1,19 +1,16 @@
 package com.it.code;
-import com.it.BaseClass;
 import com.it.ClothsMen;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import static com.it.BaseClass.driver;
-import static com.it.ClothsMen.SelectMen;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class CucumberClothsMen {
+public class CucumberClothsMen extends ClothsMen {
     @Given("User is on the homepage")
     public void user_is_on_the_homepage() {
-        BaseClass.LoginExistingUser("testacct@gmail.com","Test@1234");
+        LoginExistingUser("testacct@gmail.com","Test@1234");
     }
     @Given("Navigate to Men page")
     public void navigate_to_men_page() throws InterruptedException {

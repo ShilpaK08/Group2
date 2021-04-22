@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class ArtPage extends BaseClass{
+public class ArtPage extends BaseClass {
 
        public static String sixtyninty = "/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[4]/ul[1]/li[2]/label[1]/a[1]";
        public static String eightyOneTwenty = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[2]/ul[1]/li[3]/label[1]/a[1]";

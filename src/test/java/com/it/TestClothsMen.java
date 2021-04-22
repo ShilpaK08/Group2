@@ -1,6 +1,6 @@
 package com.it;
-import com.it.BaseClass.*;
-import com.it.ClothsMen.*;
+//import com.it.BaseClass.*;
+//import com.it.ClothsMen.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
