@@ -27,9 +27,10 @@ public class TestClothesWomen extends ClothesWomen {
         System.out.println("testing Sort Method");
     }
 
-    @Test
+   /* @Test
     public void testFilterBy() {
-        filterBy(Checkbox1);
+      public void  filterBy(Checkbox1)
+
         WebElement chkbox1 = driver.findElement(By.xpath("//*[@id=\"facet_1054\"]/li[1]/label/span/span"));
         assertTrue(chkbox1.isSelected());
         filterBy(Checkbox2);
@@ -40,7 +41,7 @@ public class TestClothesWomen extends ClothesWomen {
         //assertTrue(chkbox3.isSelected());
         filterBy(Checkbox4);
         WebElement chkbox4 = driver.findElement(By.xpath("//*[@id=\"facet_37025\"]/li[4]/label/span/span"));
-        assertTrue(chkbox4.isSelected());
+        assertTrue(chkbox4.isSelected());*/
     }
-}
+
 

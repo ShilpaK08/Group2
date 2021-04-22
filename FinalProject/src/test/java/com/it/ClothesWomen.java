@@ -32,7 +32,6 @@ public class ClothesWomen extends BaseClass{
     }
 
     {
-
         WebElement Checkbox2= driver.findElement(By.xpath("//*[@id=\"facet_97297\"]/li[2]/label/span/span/i"));
         Checkbox2.click();
     }
