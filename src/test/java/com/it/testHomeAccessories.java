@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class testHomeAccessories extends HomeAccessories{
     @Test
     public void testDropDown() throws InterruptedException {
-
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         selectDropDown(dropdown, 1);
@@ -22,7 +22,7 @@ public class testHomeAccessories extends HomeAccessories{
     }
     @Test
     public void testColor() throws InterruptedException {
-
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Color(White);
@@ -30,6 +30,7 @@ public class testHomeAccessories extends HomeAccessories{
     }
     @Test
     public void testComposition() throws InterruptedException {
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Composition(Ceramic);
@@ -37,6 +38,7 @@ public class testHomeAccessories extends HomeAccessories{
     }
     @Test
     public void testProperty() throws InterruptedException {
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         WebElement Element = driver.findElement(By.xpath(nextpage));
@@ -47,6 +49,7 @@ public class testHomeAccessories extends HomeAccessories{
     }
     @Test
     public void testBrand() throws InterruptedException {
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         WebElement Element = driver.findElement(By.xpath(nextpage));
@@ -56,6 +59,7 @@ public class testHomeAccessories extends HomeAccessories{
     }
     @Test
     public void testOneItem() throws InterruptedException {
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Item(IsAGoodDay);
@@ -65,7 +69,7 @@ public class testHomeAccessories extends HomeAccessories{
     @Test
     public void testAddToCart() throws InterruptedException {
         int windowCount = driver.getWindowHandles().size();
-
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Item(IsAGoodDay);
@@ -76,6 +80,7 @@ public class testHomeAccessories extends HomeAccessories{
         WebDriverWait wait = new WebDriverWait(driver, 60);
 
         int currentSize = driver.getWindowHandles().size();
+        //int exceptSize = windowCount + 1;
 
 
         Assertions.assertEquals(windowCount, currentSize);
@@ -85,6 +90,7 @@ public class testHomeAccessories extends HomeAccessories{
     }
     @Test
     public void testDesciption() throws InterruptedException {
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Item(IsAGoodDay);
@@ -95,7 +101,7 @@ public class testHomeAccessories extends HomeAccessories{
     @Test
     public void testShareLink() throws InterruptedException {
         int windowCount2 = driver.getWindowHandles().size();
-
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Item(IsAGoodDay);
@@ -110,11 +116,12 @@ public class testHomeAccessories extends HomeAccessories{
     }
     @Test
     public void testqView() throws InterruptedException {
+        Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
-        //WebElement Element = driver.findElement(By.xpath(nextpage));
-        //js.executeScript("arguments[0].scrollIntoView();", Element);
-        //Thread.sleep(1000);
+        WebElement Element = driver.findElement(By.xpath(nextpage));
+        js.executeScript("arguments[0].scrollIntoView();", Element);
+        Thread.sleep(1000);
         clickView(IsAGoodDay);
 
         //assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
