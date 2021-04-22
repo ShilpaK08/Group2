@@ -15,7 +15,7 @@ import org.openqa.selenium.interactions.Actions;
             }
 
         }
-        public void selectSortBy(String dropdown, int indexNo) {
+        public void ChooseSortBy(String dropdown, int indexNo) {
             WebElement E = driver.findElement(By.xpath(dropdown));
             E.click();
             Actions keyDown = new Actions(driver);
@@ -26,6 +26,13 @@ import org.openqa.selenium.interactions.Actions;
         {
 
             driver.findElement(By.xpath(item)).click();
+        }
+
+        public void QuickView(String View)
+        {
+            WebElement E = driver.findElement(By.xpath(View));
+            E.click();
+            driver.findElement(By.xpath("/html/body/main/section/div/div[2]/section/section/div[3]/div/div[1]/article[1]/div/div[2]/a")).click();
         }
 
 
