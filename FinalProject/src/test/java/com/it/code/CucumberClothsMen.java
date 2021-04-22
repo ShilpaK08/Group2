@@ -1,29 +1,26 @@
 package com.it.code;
-
-import com.it.BaseClass.*;
+import com.it.BaseClass;
+import com.it.ClothsMen;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
+import static com.it.BaseClass.driver;
+import static com.it.ClothsMen.SelectMen;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class ClothsMen {
+public class CucumberClothsMen {
     @Given("User is on the homepage")
     public void user_is_on_the_homepage() {
-        LoginExistingUser("testacct@gmail.com","Test@1234");
-
+        BaseClass.LoginExistingUser("testacct@gmail.com","Test@1234");
     }
     @Given("Navigate to Men page")
     public void navigate_to_men_page() throws InterruptedException {
-        ClothsMen.SelectMen();
+        SelectMen();
     }
     @Then("Home Cloths Men header is dispalyed")
-    public void home_cloths_men_header_is_dispalyed() {
+    public void home_cloths_men_header_is_displayed() {
         WebElement E3 = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div/nav/ol"));
         String S0 = E3.getText();
         Assertions.assertEquals("Home Clothes Men", S0);
