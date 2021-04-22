@@ -2,7 +2,7 @@ package com.it;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-<<<<<<< HEAD
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -16,12 +16,7 @@ public class ArtPage extends BaseClass{
        public static String sort = "//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]";
 
         public void OpenArtTab() {    driver.findElement(By.xpath("//a[contains(text(),'Art')]")).click();    }
-=======
 
-public class ArtPage extends BaseClass{
-
-        public void OpenArtTab() {    driver.get("http://40.76.27.113:8085/en/9-art");    }
->>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
 
         public void Composition() throws InterruptedException {
             driver.get("http://40.76.27.113:8085/en/9-art");
@@ -37,7 +32,7 @@ public class ArtPage extends BaseClass{
 
         public void Dimensions() throws InterruptedException {
             driver.get("http://40.76.27.113:8085/en/9-art");
-<<<<<<< HEAD
+
             js.executeScript("window.scrollBy(0,150)");
             Thread.sleep(1000);
             driver.findElement(By.xpath(sixtyninty)).click();
@@ -65,12 +60,12 @@ public class ArtPage extends BaseClass{
             driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article[5]/div/div[2]/a")).click();
             Thread.sleep(2000);
 
-=======
+
             Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,150)");
             driver.findElement(By.partialLinkText("60x90")).click();
             Thread.sleep(1000);
->>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
+
         }
 
         public void Zoom() {
@@ -83,18 +78,18 @@ public class ArtPage extends BaseClass{
         public void Description() throws InterruptedException {
             OpenArtTab();
             Thread.sleep(1000);
-<<<<<<< HEAD
+
             js.executeScript("window.scrollBy(0,200)");
             //Mountain fox frame
             driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[4]/div[1]/a[1]/img[1]")).click();
             Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,300)");
-=======
+
             js.executeScript("window.scrollBy(0,150)");
             driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[4]/div[1]/a[1]/img[1]")).click();
             Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,150)");
->>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
+
 
         }
 
@@ -138,9 +133,5 @@ public class ArtPage extends BaseClass{
             driver.findElement(By.xpath("//a[contains(text(),'Pinterest')]")).click();
 
         }
-        public void title() {
 
-            driver.get("https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fu%3Dhttp%253A%252F%252F40.76.27.113%253A8085%252Fen%252Fart%252F4-the-adventure-begins-framed-poster.html&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_GB");
-
-        }
 }

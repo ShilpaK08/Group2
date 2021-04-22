@@ -1,5 +1,6 @@
 package com.it;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.openqa.selenium.By;
@@ -35,8 +36,8 @@ public class TestArtPage extends ArtPage {
 
     @Test //testcase failing
     public void TestDimensions() throws InterruptedException {
-<<<<<<< HEAD
-        Dimensions(sixtyninty);
+
+        Dimensions();
         Thread.sleep(1000);
         assertTrue(driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[2]/ul[1]/li[2]/label[1]/span[1]/span[1]/i[1]")).isEnabled());
         String curText = driver.findElement(By.xpath("//p[contains(text(),'Active filters')]")).getText();
@@ -61,7 +62,7 @@ public class TestArtPage extends ArtPage {
         //String curText = driver.findElement(By.partialLinkText("You have a custom printing creative project?")).getText();
         String expText = "You have a custom printing creative project? The vector graphic Mountain fox illustration can be used for printing purpose on any support, without size limitation.";
         assertEquals(curText, expText);
-=======
+
         Dimensions();
         String expUrl1 = "http://40.76.27.113:8085/en/9-art?q=Dimension-60x90cm";
         String curUrl1 = driver.getCurrentUrl();
@@ -69,11 +70,6 @@ public class TestArtPage extends ArtPage {
 
     }
 
-
->>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
-
-
-<<<<<<< HEAD
     @Test
     public void TestSortByDropDown() throws InterruptedException {
         sortByDropDown(sort,3 );
@@ -106,14 +102,6 @@ public class TestArtPage extends ArtPage {
 
     }
 
-    @Test
-    public void testtitle() {
-        title();
-        String s = driver.getTitle();
-        Assertions.assertEquals("sdsds", s);
-
-=======
->>>>>>> 5bab1362fc6a8caae47930620a58450e1ae544ab
 
 
 }
