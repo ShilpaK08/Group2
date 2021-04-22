@@ -28,7 +28,12 @@ pipeline {
                 perfReport 'jmeter_report.jtl'
             }
         }*/
-
+        stage ('Run Jmeter tests') {
+            steps {
+              bat 'C:\\Tools\\apache-jmeter-5.4.1\\bin\\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\\Tools\\Group2_project\\Group2\\performance\\PrestShop.jmx -l jmeter_report.jtl'
+                perfReport 'jmeter_report.jtl'
+            }
+        }
         
     }
 }
