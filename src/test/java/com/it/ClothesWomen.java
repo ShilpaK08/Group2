@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
 public class ClothesWomen extends BaseClass{
-    public static String Checkbox1 = "//*[@id=\"facet_1054\"]/li[1]/label/span/span";
-    public static String Checkbox2 = "//*[@id=\"facet_97297\"]/li[2]/label/span/span/i";
+    public String Checkbox1 = "//*[@id=\"facet_1054\"]/li[1]/label/span/span";
+    public String Checkbox2 = "//*[@id=\"facet_97297\"]/li[2]/label/span/span/i";
     //public static String Checkbox3 = "//*[@id="facet_37025"]/li[3]/label/span/span/i;
     public static String Checkbox4 = "//*[@id=\"facet_37025\"]/li[4]/label/span/span";
 

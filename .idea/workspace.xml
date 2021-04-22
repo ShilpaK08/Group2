@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/HomeAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/HomeAccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" afterDir="false" />
-    </list>
+    <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

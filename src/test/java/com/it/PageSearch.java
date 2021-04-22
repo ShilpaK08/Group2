@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class PageSearch extends BaseClass{
 
-public void EnterSearchItem(String SearchItem){
+public void EnterSearchItems(String SearchItem){
     //Check for the search items on the webpage
     driver.findElement(By.xpath("//*[@id=\"search_widget\"]/form/input[2]")).sendKeys(SearchItem);
     driver.findElement(By.xpath("//*[@id=\"search_widget\"]/form/button/i")).click();
