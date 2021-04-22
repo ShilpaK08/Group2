@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="" />
+    <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/HomeAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/HomeAccessories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rRSbM24mbjANcnqnYjwLpqLq6y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,10 +34,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FinalReport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.testHomeAccessories.testAddToCart">
+  <component name="RunManager" selected="JUnit.All in Group2">
+    <configuration name="All in Group2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.it in FinalProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinalProject" />
       <extension name="coverage">
@@ -58,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Group2" />
         <item itemvalue="JUnit.testHomeAccessories.testAddToCart" />
         <item itemvalue="JUnit.com.it in FinalProject" />
       </list>
