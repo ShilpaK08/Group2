@@ -8,8 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 
     public class Stationary extends BaseClass
     {
-            public static String ChooseSortBy = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/div/a[2]";
-            public static String Ruled = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/a";
+            public String ChooseSortBy = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/div/a[2]";
+            public String Ruled = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/a";
 
         public void PaperType(String papertype)
         {

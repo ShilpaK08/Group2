@@ -7,6 +7,29 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class HomeAccessories extends BaseClass{
+
+    public static String White = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[1]/label/a";
+    public static String Black = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[2]/label/a";
+    public static String Ceramic = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/a";
+    public static String Polyester = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[2]/label/a";
+    public static String RemovableCover = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[3]/ul/li/label/a";
+    public static String StudioDesign = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[4]/ul/li/label/a";
+    public static String FilterResult = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[1]/p";
+    public static String dropdown = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/button";
+    public static String IsAGoodDay = "/html/body/main/section/div/div[2]/section/section/div[3]/div/div[1]/article[3]/div/div[1]/h2/a";
+    public static String quantity = "qty";
+    public static String add = "#add-to-cart-or-refresh > div.product-add-to-cart > div > div.add > button";
+    public static String nextpage = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[5]/p";
+    public static String description = "/html/body/main/section/div/div/section/div[1]/div[2]/div[2]/div[4]/ul/li[1]/a";
+    public static String proDetial = "/html/body/main/section/div/div/section/div[1]/div[2]/div[2]/div[4]/ul/li[2]/a";
+    public static String DescriptionResult = "/html/body/main/section/div/div/section/div[1]/div[2]/div[2]/div[4]/div/div[1]/div/p/span";
+    public static String fb = "/html/body/main/section/div/div/section/div[1]/div[2]/div[2]/div[2]/form/div[3]/div/ul/li[1]/a";
+    public static String viewAction = "/html/body/main/section/div/div[2]/section/section/div[3]/div/div[1]/article[1]/div/div[2]/a";
+    public static String Accessories = "/html/body/main/header/div[2]/div/div[1]/div[2]/div[1]/ul/li[2]/a";
+    public static String driverType = "";
+
+
+
     public void openHomeAcc(String homeAcc) {
 
         //driver.findElement(By.xpath(homeAcc)).click();
