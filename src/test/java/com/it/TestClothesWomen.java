@@ -32,6 +32,15 @@ public class TestClothesWomen extends ClothesWomen {
         filterBy(Checkbox1);
         WebElement chkbox1 = driver.findElement(By.xpath("//*[@id=\"facet_1054\"]/li[1]/label/span/span"));
         assertTrue(chkbox1.isSelected());
+        filterBy(Checkbox2);
+        WebElement chkbox2 = driver.findElement(By.xpath("//*[@id=\"facet_97297\"]/li[2]/label/span/span/i"));
+        assertTrue(chkbox2.isSelected());
+        //filterBy(Checkbox3);
+        //WebElement chkbox3 = driver.findElement(By.xpath("//*[@id="facet_37025"]/li[3]/label/span/span/i"));
+        //assertTrue(chkbox3.isSelected());
+        filterBy(Checkbox4);
+        WebElement chkbox4 = driver.findElement(By.xpath("//*[@id=\"facet_37025\"]/li[4]/label/span/span"));
+        assertTrue(chkbox4.isSelected());
     }
 }
 

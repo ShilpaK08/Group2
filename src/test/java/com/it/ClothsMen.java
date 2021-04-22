@@ -22,7 +22,7 @@ public class ClothsMen extends BaseClass {
 
 
     //Navigate to cloths men page
-    public void SelectMen() throws InterruptedException {
+    public static void SelectMen() throws InterruptedException {
         WebElement E1, E2;
         E1 = driver.findElement(By.id("category-3"));
         E2 = driver.findElement(By.id("category-4"));
