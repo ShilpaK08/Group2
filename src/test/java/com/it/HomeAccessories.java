@@ -2,6 +2,7 @@ package com.it;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -9,6 +10,7 @@ public class HomeAccessories extends BaseClass{
     public void openHomeAcc(String homeAcc) {
 
         //driver.findElement(By.xpath(homeAcc)).click();
+
         Actions action = new Actions(driver);
         WebElement we = driver.findElement(By.xpath(homeAcc));
         action.moveToElement(we).moveToElement(driver.findElement(By.xpath("//*[@id=\"category-8\"]/a"))).click().build().perform();
