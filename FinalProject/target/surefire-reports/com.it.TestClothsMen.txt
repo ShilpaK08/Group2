@@ -1,64 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.it.TestClothsMen
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 71.54 s <<< FAILURE! - in com.it.TestClothsMen
-com.it.TestClothsMen.SelectSize  Time elapsed: 14.979 s  <<< ERROR!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=89.0.4389.128)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-N48C3QTR', ip: '192.168.1.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Pervin\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b7297784744db8b0a38b5564437b2abc
-	at com.it.TestClothsMen.SelectSize(TestClothsMen.java:43)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 68.431 s <<< FAILURE! - in com.it.TestClothsMen
+com.it.TestClothsMen.SelectSize  Time elapsed: 12.736 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Active filters> but was: <>
+	at com.it.TestClothsMen.SelectSize(TestClothsMen.java:44)
 
-=======
-Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 93.869 s <<< FAILURE! - in com.it.TestClothsMen
-com.it.TestClothsMen.SortbyRelevance  Time elapsed: 14.119 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from disconnected: unable to send message to renderer
-  (Session info: chrome=90.0.4430.72)
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'DESKTOP-17HL3FQ', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.72, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Ones\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ee0ad6eaa5991d58be60d9aa8a99aaca
-
-com.it.TestClothsMen.SelectSize  Time elapsed: 28.558 s  <<< ERROR!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.72)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'DESKTOP-17HL3FQ', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.72, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Ones\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5aa39fc95f239675bb6d3d61618f0ee1
-	at com.it.TestClothsMen.SelectSize(TestClothsMen.java:43)
-
-com.it.TestClothsMen.ProductImage  Time elapsed: 6.501 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=90.0.4430.72)
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'DESKTOP-17HL3FQ', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.72, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Ones\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d54ce7a80525058ebd352478fa98b11b
-
-com.it.TestClothsMen.SelectColor  Time elapsed: 19.272 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=90.0.4430.72)
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'DESKTOP-17HL3FQ', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.72, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Ones\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: aba98b7f3c8845f645c0e464b5de73c7
-
->>>>>>> d1afc4d5493b39ed9b6edbc072f35e4d3cfe8277
