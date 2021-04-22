@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             {
                 Thread.sleep(1000);
                 PaperType("Ruled");
-                assertTrue(driver.findElement(By.xpath("FilterResult"")).isEnabled());
+                assertTrue(driver.findElement(By.xpath("FilterResult")).isEnabled());
 
             }
             @Test
