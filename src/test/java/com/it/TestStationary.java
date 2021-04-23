@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         public TestStationary() {}
 
             @Test
-            public void testPaperType () throws InterruptedException
+            public void testPaperType() throws InterruptedException
             {
 
                 Thread.sleep(1000);
@@ -27,7 +27,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
             }
             @Test
-            public void testChooseSortBy () throws InterruptedException
+            public void testChooseSortBy() throws InterruptedException
             {
 
                 Thread.sleep(1000);
@@ -43,7 +43,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             }
 
             @Test
-            public void TestQuickView () throws InterruptedException
+            public void TestQuickView() throws InterruptedException
             {
                 QuickView("MOUNTAIN FOX NOTEBOOK");
                 Thread.sleep(1000);
