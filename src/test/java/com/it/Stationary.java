@@ -8,8 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 
     public class Stationary extends BaseClass
     {
-        public static String ChooseSortBy = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/div/a[2]";
-        public static String Ruled = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/a";
+        public  String ChooseSortBy = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/div/a[2]";
+        public  String Ruled = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/a";
 
         public void openStatio(String Statio)
         {
@@ -44,13 +44,13 @@ import org.openqa.selenium.interactions.Actions;
             driver.findElement(By.xpath(item)).click();
         }
 */
-        public void QuickView(String View)
+        /* public void QuickView(String View)
         {
 
             WebElement E = driver.findElement(By.xpath(View));
             E.click();
             driver.findElement(By.xpath("/html/body/main/section/div/div[2]/section/section/div[3]/div/div[1]/article[1]/div/div[2]/a")).click();
-        }
+        } */
     }
 
 

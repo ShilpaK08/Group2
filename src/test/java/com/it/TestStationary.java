@@ -40,7 +40,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
                 OneItem("Mountain Fox Notebook");
                 Thread.sleep(1000);
                 assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
-            }*/
+            }
 
             @Test
             public void TestQuickView () throws InterruptedException
@@ -49,7 +49,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
                 Thread.sleep(1000);
                 assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
 
-            }
+            } */
 
 
     }
