@@ -14,42 +14,39 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
     public class TestStationary  extends Stationary
     {
 
-
-        public TestStationary() {}
-
-            @Test
-            public void testPaperType() throws InterruptedException
-            {
+        @Test
+        public void testPaperType() throws InterruptedException
+        {
 
                 Thread.sleep(1000);
                 PaperType(Ruled);
                 assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
 
-            }
-            @Test
-            public void testChooseSortBy() throws InterruptedException
-            {
-
-                Thread.sleep(1000);
-                SelectSortby(ChooseSortBy, 2);
-                assertTrue(driver.findElement(By.xpath(ChooseSortBy)).isEnabled());
-            }
-            /*@Test
+        }
+        @Test
+        public void SortbyRelevance() throws InterruptedException
+        {
+            Thread.sleep(1000);
+            ChooseRelevance(SortbyRelevance, 2);
+            assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
+        }
+        @Test
             public void testOneItem () throws InterruptedException
             {
-                OneItem("Mountain Fox Notebook");
+                OneItem(MountainFoxNotebook);
                 Thread.sleep(1000);
                 assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
             }
 
-            @Test
-            public void TestQuickView() throws InterruptedException
-            {
-                QuickView("MOUNTAIN FOX NOTEBOOK");
-                Thread.sleep(1000);
-                assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
+        @Test
+        public void testqView() throws InterruptedException
+        {
+            Thread.sleep(1000);
+            WebElement Element = driver.findElement(By.xpath(Nextpage));
+            js.executeScript("arguments[0].scrollIntoView();", Element);
+            Thread.sleep(1000);
+            clickView(MountainFoxNotebook);
 
-            } */
-
+        }
 
     }
