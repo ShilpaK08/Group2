@@ -10,6 +10,12 @@
     <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="">
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/Group2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Group2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/Group2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Group2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -27,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" afterDir="false" />
 >>>>>>> 34815e7bba600d2737c59183f62b0e564ea53714
+>>>>>>> fe728237de8c43648832b99a91618e5c210347ef
     </list>
 >>>>>>> 782976300554e9e30933d14e40fbbd573a80139d
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +56,11 @@
 <<<<<<< HEAD
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
 =======
+<<<<<<< HEAD
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+=======
 >>>>>>> 34815e7bba600d2737c59183f62b0e564ea53714
+>>>>>>> fe728237de8c43648832b99a91618e5c210347ef
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
