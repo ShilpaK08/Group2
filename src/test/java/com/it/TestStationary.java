@@ -15,13 +15,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
     {
 
 
-        public TestStationary(){}
+        public TestStationary() {}
 
             @Test
             public void testPaperType() throws InterruptedException
             {
+
                 Thread.sleep(1000);
-                PaperType("Ruled");
+                PaperType(Ruled);
                 assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
 
             }
@@ -33,19 +34,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
                 SelectSortby(ChooseSortBy, 2);
                 assertTrue(driver.findElement(By.xpath(ChooseSortBy)).isEnabled());
             }
-            @Test
+            /*@Test
             public void testOneItem () throws InterruptedException
             {
                 OneItem("Mountain Fox Notebook");
                 Thread.sleep(1000);
-                assertEquals(driver.getCurrentUrl(),"http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
-            }
+                assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
+            }*/
+
             @Test
             public void TestQuickView() throws InterruptedException
             {
                 QuickView("MOUNTAIN FOX NOTEBOOK");
                 Thread.sleep(1000);
-                assertEquals(driver.getCurrentUrl(),"http://40.76.27.113:8085/en/7-stationery");
+                assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
 
             }
 

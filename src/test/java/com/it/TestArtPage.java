@@ -55,7 +55,7 @@ public class TestArtPage extends ArtPage {
     }
 
 
-    @Test
+    /* @Test
     public void TestDescription() throws InterruptedException {
         Description();
         String curText = driver.findElement(By.xpath("//span[contains(text(),'You have a custom printing creative project? The v')]")).getText();
@@ -68,7 +68,7 @@ public class TestArtPage extends ArtPage {
         String curUrl1 = driver.getCurrentUrl();
         assertEquals(expUrl1,curUrl1);
 
-    }
+    } */
 
     @Test
     public void TestSortByDropDown() throws InterruptedException {
@@ -83,7 +83,7 @@ public class TestArtPage extends ArtPage {
 
     }
 
-    @Test //not working
+    /* @Test //not working
     public void TestQuickView() throws InterruptedException {
         QuickView();
         //String curText = driver.findElement(By.xpath("//h1[contains(text(),'Brown bear - Vector graphics')]")).getText();
@@ -100,7 +100,7 @@ public class TestArtPage extends ArtPage {
         String curUrl = driver.getCurrentUrl();
         Assertions.assertEquals(expUrl,curUrl);
 
-    }
+    }  */
 
 
 

@@ -33,7 +33,7 @@ public class TestClothsMen extends ClothsMen {
     }
 
     //Filter by size option
-    @Test
+    /*@Test
     public void SelectSize() throws InterruptedException {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
@@ -42,7 +42,7 @@ public class TestClothsMen extends ClothsMen {
         WebElement E7 = driver.findElement(By.xpath("/html/body/main/section/div/div[2]/section/section/div[2]/section/p"));
         String S4 = E7.getText();
         Assertions.assertEquals("Active filters", S4);
-    }
+    } */
 
     //Filter by color option
     @Test
