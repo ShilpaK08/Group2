@@ -18,11 +18,11 @@ public class BaseClass {
    public JavascriptExecutor js;
 
     @BeforeEach
-    public void openUp(){
+    public void openUp() {
         //open the Chrome webdriver and maximize the window before performing each test case
-        System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
 
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         js = (JavascriptExecutor) driver;
         driver.get("http://40.76.27.113:8085/en/");
         driver.manage().window().maximize();
@@ -36,15 +36,12 @@ public class BaseClass {
         driver.findElement(By.name("password")).sendKeys(PassWord);
         driver.findElement(By.id("submit-login")).submit();
     }
-/*
-    @AfterEach
-=======
+
 
    @AfterEach
->>>>>>> 878be17dc7fc65b7b3832765b9b84d8e1cfeb1b4
     public void tearDown(){
        // Close the Chrome webpage after performing each test case
         driver.quit();
     }
-*/
+
 }

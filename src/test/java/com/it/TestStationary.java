@@ -7,6 +7,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -23,7 +29,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
         }
 
-        @Test
+        /* @Test
         public void testDropDown() throws InterruptedException
         {
             Thread.sleep(2000);
@@ -32,7 +38,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             selectDropDown(SortbyRelevance, 1);
 
             assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
-        }
+        } */
 
         @Test
         public void testItem() throws InterruptedException
@@ -45,7 +51,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         }
 
 
-      /*  @Test
+       /* @Test
         public void testqView() throws InterruptedException
         {
             Thread.sleep(2000);
@@ -54,6 +60,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             Thread.sleep(2000);
             clickView(MountainFoxNotebook);
 
-        }*/
+        } */
 
     }
