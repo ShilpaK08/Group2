@@ -2,7 +2,7 @@ package com.it;
 
 import org.openqa.selenium.By;
 
-public class PageSearch extends BaseClass{
+public class    PageSearch extends BaseClass{
 
 public void EnterSearchItems(String SearchItem){
     //Check for the search items on the webpage
