@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestClothsMen extends ClothsMen {
     //TC for Cloths Men from Home page
-    @Test
+   /* @Test
     public void ClickonCloths() throws InterruptedException {
         //LoginExistingUser("Testgroup2@test.com", "12345");
         LoginExistingUser("testacct@gmail.com","Test@1234");
@@ -33,7 +33,7 @@ public class TestClothsMen extends ClothsMen {
     }
 
     //Filter by size option
-    /*@Test
+    @Test
     public void SelectSize() throws InterruptedException {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
@@ -42,7 +42,7 @@ public class TestClothsMen extends ClothsMen {
         WebElement E7 = driver.findElement(By.xpath("/html/body/main/section/div/div[2]/section/section/div[2]/section/p"));
         String S4 = E7.getText();
         Assertions.assertEquals("Active filters", S4);
-    } */
+    }
 
     //Filter by color option
     @Test
@@ -58,13 +58,13 @@ public class TestClothsMen extends ClothsMen {
     public void SortbyRelevance() throws InterruptedException {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
-       /* if (E8.isEnabled() && E8.isDisplayed())
+        if (E8.isEnabled() && E8.isDisplayed())
         {
             System.out.println("SortbyRelevance dropdown dispalyed");
         }
         else {
             System.out.println("SortbyRelevance dropdown not dispalyed");
-        }*/
+        }
         ChooseRelevance(SortbyRelevance, 2);
         assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
     }
@@ -83,5 +83,5 @@ public class TestClothsMen extends ClothsMen {
         System.out.println("The quickview is displayed");
         driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/div[2]/a")).click();
     }
-
+*/
 }

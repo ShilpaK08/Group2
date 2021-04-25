@@ -3,6 +3,12 @@ package com.it;
 import org.checkerframework.checker.index.qual.GTENegativeOne;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -26,13 +32,13 @@ public class TestSearchFunction extends PageSearch{
     assertEquals(ActUrl,ExpUrl);
 }
 
-@Test
+/* @Test
     public void TestNonExistingSearchItem(){
     //Test to check the item that is not present and to validate the message displayed when no relevant item is found
     EnterSearchItems("GLASS");
     String Message = driver.findElement(By.xpath("//*[@id=\"content\"]/h4")).getText();
     assertEquals(Message, "Sorry for the inconvenience.");
-}
+} */
 
 @Test
     public void SearchInUserLogin(){

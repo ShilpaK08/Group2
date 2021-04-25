@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+
 public class HomeAccessories extends BaseClass{
 
     public static String White = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[1]/label/a";
