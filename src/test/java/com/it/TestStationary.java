@@ -22,12 +22,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         @Test
         public void testPaperType() throws InterruptedException
         {
-<<<<<<< HEAD
-3.
                 Thread.sleep(1000);
                 PaperType(Ruled);
                 assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
-=======
             Thread.sleep(2000);
             openStationary(Accessories);
             Thread.sleep(2000);
@@ -45,7 +42,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
             assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
         } */
->>>>>>> 728909be39c50fa98ee4f5acf663ba17e53e3e51
+
 
         @Test
         public void testItem() throws InterruptedException

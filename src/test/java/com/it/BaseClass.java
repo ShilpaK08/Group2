@@ -21,7 +21,7 @@ public class BaseClass {
     public void openUp() {
         //open the Chrome webdriver and maximize the window before performing each test case
         //System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
-
+        //driver = new ChromeDriver();
         driver = new FirefoxDriver();
         js = (JavascriptExecutor) driver;
         driver.get("http://40.76.27.113:8085/en/");

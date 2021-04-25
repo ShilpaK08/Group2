@@ -1,20 +1,24 @@
 package com.it;
-//import com.it.BaseClass.*;
-//import com.it.ClothsMen.*;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotSelectableException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+
+import javax.swing.*;
+
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestClothsMen extends ClothsMen {
     //TC for Cloths Men from Home page
-   /* @Test
+    @Test
     public void ClickonCloths() throws InterruptedException {
-        //LoginExistingUser("Testgroup2@test.com", "12345");
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         WebElement E3 = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div/nav/ol"));
@@ -37,7 +41,7 @@ public class TestClothsMen extends ClothsMen {
     public void SelectSize() throws InterruptedException {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
-        ChooseSize(S);
+        ChooseSize(M);
         assertTrue(driver.findElement(By.xpath(SizeResult)).isEnabled());
         WebElement E7 = driver.findElement(By.xpath("/html/body/main/section/div/div[2]/section/section/div[2]/section/p"));
         String S4 = E7.getText();
@@ -58,13 +62,6 @@ public class TestClothsMen extends ClothsMen {
     public void SortbyRelevance() throws InterruptedException {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
-        if (E8.isEnabled() && E8.isDisplayed())
-        {
-            System.out.println("SortbyRelevance dropdown dispalyed");
-        }
-        else {
-            System.out.println("SortbyRelevance dropdown not dispalyed");
-        }
         ChooseRelevance(SortbyRelevance, 2);
         assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
     }
@@ -76,6 +73,7 @@ public class TestClothsMen extends ClothsMen {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         WebElement E9 = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/a/img"));
+        js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", E9 );
         Actions action1 = new Actions(driver);
         action1.moveToElement(E9).perform();
@@ -83,5 +81,58 @@ public class TestClothsMen extends ClothsMen {
         System.out.println("The quickview is displayed");
         driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/div[2]/a")).click();
     }
-*/
+
+    //Click on product image and verify the page
+    @Test
+    public void ClickonProductImage() throws InterruptedException
+    {
+        LoginExistingUser("testacct@gmail.com", "Test@1234");
+        SelectMen();
+        driver.findElement(By.xpath
+                ("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/a[1]")).click();
+        //Breadcrumb verification
+        WebElement E10 = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div/nav/ol"));
+        String S5 = E10.getText();
+        Assertions.assertEquals("Home Clothes Men Hummingbird printed t-shirt", S5);
+        //Page header verification
+        String S6 = driver.findElement(By.xpath("//h1[contains(text(),'Hummingbird printed t-shirt')]")).getText();
+        System.out.println(S6);
+        Assertions.assertEquals("HUMMINGBIRD PRINTED T-SHIRT", S6);
+        //Size dropdown verification
+        WebElement E11 = driver.findElement(By.xpath("//select[@id='group_1']"));
+        E11.click();
+        if(E11.isEnabled() && E11.isDisplayed())
+        {
+            System.out.println("Dropdown is enabled and visible");
+        }
+        else {
+            System.out.println("Dropdown is not visible");
+        }
+        //Quantity dropdown verification
+        WebElement E12 = driver.findElement(By.xpath("//span[contains(text(),'Quantity')]"));
+        String S7 = E12.getText();
+        Assertions.assertEquals("Quantity", S7);
+        WebElement E13 = driver.findElement(By.xpath("//input[@id='quantity_wanted']"));
+        if(E13.isEnabled())
+        {
+            System.out.println("Dropdown is enabled");
+        }
+        else
+        {
+            System.out.println("Drop down is not enabled");
+        }
+        driver.findElement(By.xpath
+                ("//body/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[2]/div[2]" +
+                        "/form[1]/div[2]/div[1]/div[1]/div[1]/span[3]/button[1]/i[1]")).click();
+        System.out.println("The quantity is added");
+        driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]" +
+                "/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/button[1]")).click();
+        //Add to cart page verification
+        driver.switchTo().activeElement();
+        Thread.sleep(5000);
+        WebElement E15 = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/h4[1]"));
+        String S8 = E15.getText();
+        Assertions.assertEquals("Product successfully added to your shopping cart", S8);
+    }
+
 }

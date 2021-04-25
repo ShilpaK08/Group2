@@ -7,34 +7,13 @@
     <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/ArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/ArtPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/ClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/ClothsMen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/HomeAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/HomeAccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/PageSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/PageSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/Stationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/Stationary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestArtPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestSearchFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestSearchFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/testHomeAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/testHomeAccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ClothsMen.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/ClothesWomen.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/ClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/ClothsMen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/LoginAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/LoginAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/PageSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/PageSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/Stationary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/Stationary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestClothesWomen.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestSearchFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestStationary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestStationary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/code/CucumberClothsMen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/testRunner/TestRunner.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +32,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    HEAD
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    =======
-HEAD
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    =======
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 34815e7bba600d2737c59183f62b0e564ea53714
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; fe728237de8c43648832b99a91618e5c210347ef
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="JUnit.TestClothsMen">
-    <configuration name="TestArtPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestArtPage" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestClothsMen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -95,7 +52,7 @@ HEAD
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearchFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClothsMen.ClickonCloths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
         <pattern>
@@ -104,29 +61,14 @@ HEAD
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestSearchFunction" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStationary.testDropDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestStationary" />
-      <option name="METHOD_NAME" value="testDropDown" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="METHOD_NAME" value="ClickonCloths" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testHomeAccessories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClothsMen.ClickonProductImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +77,41 @@ HEAD
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.testHomeAccessories" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="METHOD_NAME" value="ClickonProductImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClothsMen.ProductImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="METHOD_NAME" value="ProductImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClothsMen.SortbyRelevance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="METHOD_NAME" value="SortbyRelevance" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,10 +119,10 @@ HEAD
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestClothsMen" />
-        <item itemvalue="JUnit.TestArtPage" />
-        <item itemvalue="JUnit.testHomeAccessories" />
-        <item itemvalue="JUnit.TestSearchFunction" />
-        <item itemvalue="JUnit.TestStationary.testDropDown" />
+        <item itemvalue="JUnit.TestClothsMen.ClickonCloths" />
+        <item itemvalue="JUnit.TestClothsMen.ClickonProductImage" />
+        <item itemvalue="JUnit.TestClothsMen.ProductImage" />
+        <item itemvalue="JUnit.TestClothsMen.SortbyRelevance" />
       </list>
     </recent_temporary>
   </component>
