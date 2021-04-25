@@ -24,7 +24,7 @@ public class ArtPage extends BaseClass {
 
 
         public void Composition() throws InterruptedException {
-            driver.get("http://40.76.27.113:8085/en/9-art");
+            //driver.get("http://40.76.27.113:8085/en/9-art");
             driver.findElement(By.partialLinkText("Matt pap")).click();
             Thread.sleep(1000);
         }
@@ -64,12 +64,8 @@ public class ArtPage extends BaseClass {
             //Bear poster
             driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article[5]/div/div[2]/a")).click();
             Thread.sleep(2000);
-
-
             Thread.sleep(1000);
-            js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.partialLinkText("60x90")).click();
-            Thread.sleep(1000);
+
 
         }
 
@@ -89,11 +85,6 @@ public class ArtPage extends BaseClass {
             driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[4]/div[1]/a[1]/img[1]")).click();
             Thread.sleep(1000);
             js.executeScript("window.scrollBy(0,300)");
-
-            js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[4]/div[1]/a[1]/img[1]")).click();
-            Thread.sleep(1000);
-            js.executeScript("window.scrollBy(0,150)");
 
 
         }
@@ -123,20 +114,5 @@ public class ArtPage extends BaseClass {
             driver.switchTo().window("Facebook");
         }
 
-        public void Twitter() {
-            driver.get("http://40.76.27.113:8085/en/9-art");
-            js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[2]/div[1]/a[1]/img[1]")).click();
-            driver.findElement(By.xpath("//a[contains(text(),'Tweet')]")).click();
-
-        }
-
-        public void Pinterest() {
-            driver.get("http://40.76.27.113:8085/en/9-art");
-            js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[2]/div[1]/a[1]/img[1]")).click();
-            driver.findElement(By.xpath("//a[contains(text(),'Pinterest')]")).click();
-
-        }
 
 }
