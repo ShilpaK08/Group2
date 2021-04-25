@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.it.TestSearchFunction" time="62.163" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.it.TestClotheswomen" time="87.858" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -57,46 +57,60 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="TestSearchASingleItem" classname="com.it.TestSearchFunction" time="21.547">
-    <system-err><![CDATA[1619365161994	geckodriver	INFO	Listening on 127.0.0.1:31004
-1619365162299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjmat\\AppData\\Local\\Temp\\rust_mozprofilemCPaLt"
-1619365163938	Marionette	INFO	Marionette enabled
+  <testcase name="testproductPicture" classname="com.it.TestClotheswomen" time="23.85">
+    <system-err><![CDATA[1619364920024	geckodriver	INFO	Listening on 127.0.0.1:26153
+1619364920406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjmat\\AppData\\Local\\Temp\\rust_mozprofilemNZByS"
+1619364922058	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1619365172212	Marionette	INFO	Listening on port 62429
-1619365172588	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 25, 2021 5:39:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1619364930558	Marionette	INFO	Listening on port 61719
+1619364931161	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 25, 2021 5:35:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1619365178273	Marionette	INFO	Stopped listening on port 62429
+1619364937853	Marionette	INFO	Stopped listening on port 61719
+]]></system-err>
+  </testcase>
+  <testcase name="testCorrectUrl" classname="com.it.TestClotheswomen" time="24.744">
+    <system-err><![CDATA[1619364943770	geckodriver	INFO	Listening on 127.0.0.1:47180
+1619364944305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjmat\\AppData\\Local\\Temp\\rust_mozprofilemNQmsU"
+1619364945958	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619364955578	Marionette	INFO	Listening on port 61789
+1619364956056	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 25, 2021 5:35:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1619364965577	Marionette	INFO	Stopped listening on port 61789
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
-  <testcase name="TestSearchMultipleItems" classname="com.it.TestSearchFunction" time="18.996">
-    <system-err><![CDATA[1619365183333	geckodriver	INFO	Listening on 127.0.0.1:45950
-1619365183821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjmat\\AppData\\Local\\Temp\\rust_mozprofilee504ya"
-1619365185457	Marionette	INFO	Marionette enabled
+  <testcase name="testSortBy" classname="com.it.TestClotheswomen" time="19.776">
+    <system-out><![CDATA[testing Sort Method
+]]></system-out>
+    <system-err><![CDATA[1619364968481	geckodriver	INFO	Listening on 127.0.0.1:40836
+1619364968923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjmat\\AppData\\Local\\Temp\\rust_mozprofilerQFC5X"
+1619364970617	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1619365193752	Marionette	INFO	Listening on port 62495
-1619365194110	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 25, 2021 5:39:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1619364979289	Marionette	INFO	Listening on port 61857
+1619364979807	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 25, 2021 5:36:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1619365199349	Marionette	INFO	Stopped listening on port 62495
+1619364985319	Marionette	INFO	Stopped listening on port 61857
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
-  <testcase name="SearchInUserLogin" classname="com.it.TestSearchFunction" time="21.62">
-    <system-err><![CDATA[1619365202358	geckodriver	INFO	Listening on 127.0.0.1:15525
-1619365202790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjmat\\AppData\\Local\\Temp\\rust_mozprofilerIkXEt"
-1619365204471	Marionette	INFO	Marionette enabled
+  <testcase name="testQuickview" classname="com.it.TestClotheswomen" time="19.487">
+    <system-err><![CDATA[1619364988257	geckodriver	INFO	Listening on 127.0.0.1:7173
+1619364988734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjmat\\AppData\\Local\\Temp\\rust_mozprofileW9gunj"
+1619364990441	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1619365212500	Marionette	INFO	Listening on port 62558
-1619365213070	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 25, 2021 5:40:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1619364998935	Marionette	INFO	Listening on port 61926
+1619364999507	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 25, 2021 5:36:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1619365220874	Marionette	INFO	Stopped listening on port 62558
+1619365004709	Marionette	INFO	Stopped listening on port 61926
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 

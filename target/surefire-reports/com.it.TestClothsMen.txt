@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.it.TestClothsMen
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 68.431 s <<< FAILURE! - in com.it.TestClothsMen
-com.it.TestClothsMen.SelectSize  Time elapsed: 12.736 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Active filters> but was: <>
-	at com.it.TestClothsMen.SelectSize(TestClothsMen.java:44)
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 154.008 s <<< FAILURE! - in com.it.TestClothsMen
+com.it.TestClothsMen.ClickonProductImage  Time elapsed: 30.757 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Product successfully added to your shopping cart> but was: <Product successfully added to your shopping cart>
+	at com.it.TestClothsMen.ClickonProductImage(TestClothsMen.java:135)
 

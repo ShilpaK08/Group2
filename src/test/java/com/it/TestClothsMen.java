@@ -135,4 +135,17 @@ public class TestClothsMen extends ClothsMen {
         Assertions.assertEquals("Product successfully added to your shopping cart", S8);
     }
 
+    //Quickview functionality in clothsMen page
+    @Test
+    public void QuickviewMan() throws InterruptedException
+    {
+        LoginExistingUser("testacct@gmail.com", "Test@1234");
+        SelectMen();
+        WebElement E16 = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/a/img"));
+        js.executeScript("arguments[0].scrollIntoView();", E16 );
+        Actions action1 = new Actions(driver);
+        action1.moveToElement(E16).perform();
+        driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/div[2]/a[1]")).click();
+
+    }
 }
