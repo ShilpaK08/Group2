@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
     public class TestStationary  extends Stationary
     {
-        @Test
+        /*@Test
         public void testPaperType() throws InterruptedException
         {
                 Thread.sleep(1000);
@@ -32,7 +32,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
         }
 
-        /* @Test
+        @Test
         public void testDropDown() throws InterruptedException
         {
             Thread.sleep(2000);
@@ -55,7 +55,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         }
 
 
-       /* @Test
+        /*@Test
         public void testqView() throws InterruptedException
         {
             Thread.sleep(2000);

@@ -20,14 +20,14 @@ public class testHomeAccessories extends HomeAccessories{
 
         assertTrue(driver.findElement(By.xpath(dropdown)).isEnabled());
     }
-    /* @Test
+     @Test
     public void testColor() throws InterruptedException {
         Thread.sleep(1000);
         openHomeAcc(Accessories);
         Thread.sleep(1000);
         Color(White);
         assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
-    } */
+    }
     @Test
     public void testComposition() throws InterruptedException {
         Thread.sleep(1000);
@@ -36,7 +36,7 @@ public class testHomeAccessories extends HomeAccessories{
         Composition(Ceramic);
         assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
     }
-    /*@Test
+    @Test
     public void testProperty() throws InterruptedException {
         Thread.sleep(1000);
         openHomeAcc(Accessories);
@@ -46,7 +46,7 @@ public class testHomeAccessories extends HomeAccessories{
 
         Property(RemovableCover);
         assertTrue(driver.findElement(By.xpath(FilterResult)).isEnabled());
-    }*/
+    }
     @Test
     public void testBrand() throws InterruptedException {
         Thread.sleep(1000);
