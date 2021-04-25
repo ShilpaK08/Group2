@@ -35,9 +35,27 @@ public void EnterBirthDate(String BirhtDate){
     driver.findElement(By.name("Birthday")).sendKeys(BirhtDate);
 }
 
-public void EnterSocialTitle(String EnterGender){
-    driver.findElement(By.name("id_gender")).sendKeys(EnterGender);
-}
+    public void EnterSocialTitle(String EnterGender){
+        //Enter the gender
+        if (EnterGender == "Male") {
+            driver.findElement(By.xpath("//*[@id=\"customer-form\"]/section/div[1]/div[1]/label[1]/span/input")).click();
+        }
+        else if (EnterGender == "Female"){
+            driver.findElement(By.xpath("//*[@id=\"customer-form\"]/section/div[1]/div[1]/label[2]/span/input")).click();
+        }
+    }
+
+    public void SelectReceiveOffers(){
+        driver.findElement(By.xpath("//*[@id=\"customer-form\"]/section/div[7]/div[1]/span/label/input")).click();
+    }
+
+    public void SelectForNewsLetter(){
+        driver.findElement(By.name("newsletter")).click();
+    }
+
+    public void AgreeTermsnConditions(){
+        driver.findElement(By.name("psgdpr")).click();
+    }
 
 
 

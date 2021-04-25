@@ -6,19 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestArtPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestArtPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClothsMen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClothsMen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSearchFunction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSearchFunction.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestArtPage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestArtPage.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/PageSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/PageSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestSearchFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestSearchFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +30,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestClothsMen.QuickviewMan">
+  <component name="RunManager" selected="JUnit.TestSearchFunction">
     <configuration name="TestArtPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -87,22 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClothsMen.ClickonCloths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
-      <option name="METHOD_NAME" value="ClickonCloths" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestClothsMen.QuickviewMan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -119,13 +92,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSearchFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestSearchFunction" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSearchFunction" />
         <item itemvalue="JUnit.TestClothsMen.QuickviewMan" />
         <item itemvalue="JUnit.TestClotheswomen" />
         <item itemvalue="JUnit.TestArtPage" />
         <item itemvalue="JUnit.TestClothsMen" />
-        <item itemvalue="JUnit.TestClothsMen.ClickonCloths" />
       </list>
     </recent_temporary>
   </component>
