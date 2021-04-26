@@ -6,7 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="99376ba8-2305-4b16-985c-40787ad91649" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/ArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/ArtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestArtPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestArtPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/testHomeAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/testHomeAccessories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestStationary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestStationary.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/PageSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/PageSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestSearchFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestSearchFunction.java" afterDir="false" />
+>>>>>>> 9ab1b97d36d430f3403035046b0c0c0afd8c5682
+>>>>>>> 8f9a4289e0144c4b9937e37de85c20af184a9a2e
+>>>>>>> 9d74525c385ce4f15da56c9e978a49400f8267c4
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +49,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.TestClothsMen">
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.TestClothsMen">
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.TestStationary">
+=======
+  <component name="RunManager" selected="JUnit.TestSearchFunction">
+>>>>>>> 9ab1b97d36d430f3403035046b0c0c0afd8c5682
+>>>>>>> 8f9a4289e0144c4b9937e37de85c20af184a9a2e
+>>>>>>> 9d74525c385ce4f15da56c9e978a49400f8267c4
     <configuration name="TestArtPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -129,11 +161,34 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <item itemvalue="JUnit.TestClothsMen" />
+        <item itemvalue="JUnit.TestClothsMen.QuickviewMan" />
+        <item itemvalue="JUnit.TestClotheswomen" />
+        <item itemvalue="JUnit.TestArtPage" />
+        <item itemvalue="JUnit.TestClothsMen.ClickonCloths" />
+=======
+<<<<<<< HEAD
+        <item itemvalue="JUnit.TestStationary" />
+>>>>>>> 9d74525c385ce4f15da56c9e978a49400f8267c4
         <item itemvalue="JUnit.TestClothsMen" />
         <item itemvalue="JUnit.TestStationary" />
         <item itemvalue="JUnit.TestArtPage.TestQuickView" />
         <item itemvalue="JUnit.TestArtPage" />
         <item itemvalue="JUnit.TestArtPage.TestComposition" />
+<<<<<<< HEAD
+=======
+=======
+        <item itemvalue="JUnit.TestSearchFunction" />
+        <item itemvalue="JUnit.TestClothsMen.QuickviewMan" />
+        <item itemvalue="JUnit.TestClotheswomen" />
+        <item itemvalue="JUnit.TestArtPage" />
+        <item itemvalue="JUnit.TestClothsMen" />
+>>>>>>> 9ab1b97d36d430f3403035046b0c0c0afd8c5682
+>>>>>>> 8f9a4289e0144c4b9937e37de85c20af184a9a2e
+>>>>>>> 9d74525c385ce4f15da56c9e978a49400f8267c4
       </list>
     </recent_temporary>
   </component>
