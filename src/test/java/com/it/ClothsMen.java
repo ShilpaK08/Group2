@@ -1,70 +1,68 @@
 package com.it;
+
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
-import static com.it.BaseClass.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Wait;
 
-import org.openqa.selenium.WebElement;
+import java.util.concurrent.TimeUnit;
+
+
 
 public class ClothsMen extends BaseClass {
 
-        public static String S = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[1]/label/span/span";
-        public static String M = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[2]/label/span/span";
-        public static String L = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[3]/label/span/span";
-        public static String XL = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[4]/label/span/span";
-        public static String SizeResult = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[1]/ul/li[1]/label/span/span";
-        public static String White = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/span/span";
-        public static String Black = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[2]/label/span/span";
-        public static String ColorResult = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[2]/label/span/span";
-        public static String SortbyRelevance = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/button";
-        //public static String R1 = "a.select-list:nth-child(2)";
-        //public static String RelevanceResult = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/button";
+    public static String S = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[1]/ul[1]/li[1]/label[1]/a[1]";
+    public static String M = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[1]/ul[1]/li[2]/label[1]/a[1]";
+    public static String L = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[1]/ul[1]/li[3]/label[1]/a[1]";
+    public static String XL = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[1]/ul[1]/li[4]/label[1]/a[1]";
+    public static String SizeResult = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[1]/ul[1]/li[2]/label[1]";
+    public static String White = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/span/span";
+    public static String Black = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[2]/ul[1]/li[2]/label[1]/a[1]";
+    public static String ColorResult = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[2]/ul[1]/li[2]/label[1]/span[1]/span[1]";
+    public static String SortbyRelevance = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/button";
+    // public static String R1 = "//a[contains(text(),'Name, A to Z')]";
+    // public static String RelevanceResult = "//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]";
 
 
     //Navigate to cloths men page
     public void SelectMen() throws InterruptedException {
         WebElement E1, E2;
+        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
         E1 = driver.findElement(By.id("category-3"));
-        E2 = driver.findElement(By.id("category-4"));
         Actions action = new Actions(driver);
         action.moveToElement(E1).perform();
-        Thread.sleep(2000);
-        action.click(E2).perform();
+        E2 = driver.findElement(By.id("category-4"));
+        E2.click();
+        Thread.sleep(1000);
     }
 
-        //Filter by SIZE
-    public void ChooseSize(String Size)
+    //Filter by SIZE
+    public void ChooseSize(String Size) throws InterruptedException
     {
         driver.findElement(By.xpath(Size)).click();
+        Thread.sleep(1000);
     }
 
     //Filter by color
-    public void ChooseColor(String Color)
+    public void ChooseColor(String Color) throws InterruptedException
     {
         driver.findElement(By.xpath(Color)).click();
+        Thread.sleep(1000);
 
     }
 
     //SortbyRelevance
-    public void ChooseRelevance(String SortbyRelevance, Integer index)
+    public void ChooseRelevance(String SortbyRelevance, Integer index) throws InterruptedException
     {
 
-        WebElement E8= driver.findElement(By.xpath(SortbyRelevance));
-        E8.click();
+        driver.findElement(By.xpath(SortbyRelevance)).click();
         Actions keyDown = new Actions(driver);
         keyDown.sendKeys(Keys.chord(Keys.DOWN, Keys.DOWN)).perform();
+        WebElement SR = driver.findElement(By.xpath("//a[contains(text(),'Name, A to Z')]"));
+        Actions action = new Actions(driver);
+        action.moveToElement(SR).perform();
+        action.click(SR).perform();
     }
 
 }
