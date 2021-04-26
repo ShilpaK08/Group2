@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 import static com.it.BaseClass.*;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ClothesWomen extends BaseClass {
     /*public String Checkbox1 = "//*[@id=\"search_filter_controls\"]";
@@ -76,14 +77,27 @@ public class ClothesWomen extends BaseClass {
         //WebElement slider = driver.findElement(By.xpath("//*[@id=\"quickview-modal-2-9\"]"));
         //js.executeScript("window.scrollBy(0,200)");
         driver.get("http://40.76.27.113:8085/en/5-women");
-        //js.executeScript("window.scrollBy(0,200)");
+        WebDriverWait wait = new WebDriverWait(driver,30);
+        js.executeScript("window.scrollBy(0,200)");
         //driver.switchTo().frame(0); //need to switch to this frame before clicking the slider
         WebElement Quickview = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/div[2]/a"));
         Actions move = new Actions(driver);
         Action action = (Action) move.click().build();
         action.perform();
     }
-
+    public void QuickviewUpdate() throws InterruptedException {
+        //WebElement slider = driver.findElement(By.xpath("//*[@id=\"quickview-modal-2-9\"]"));
+        //js.executeScript("window.scrollBy(0,200)");
+        driver.get("http://40.76.27.113:8085/en/5-women");
+        Thread.sleep(5000);
+        LoginExistingUser("jones.victor@gmail.com","Happy");
+        driver.findElement(By.xpath("//*[@id=\"category-3\"]/a")).click();
+        //Thread.sleep(1000);
+        driver.findElement(By.linkText("Women")).click();
+        WebElement Quickview = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/div[2]/a"));
+        Actions move = new Actions(driver);
+        Action action = (Action) move.click().build();
+        action.perform();}
 
 }
 
