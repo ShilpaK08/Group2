@@ -1,5 +1,6 @@
 package com.it;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,21 +15,26 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class BaseClass {
 
-   public WebDriver driver;
+   public static WebDriver driver;
 
-   public JavascriptExecutor js;
+   public static JavascriptExecutor js;
 
-    @BeforeEach
+   @BeforeAll
+   public static void SetUp(){
+       driver = new ChromeDriver();
+       js = (JavascriptExecutor) driver;
+       driver.get("http://40.76.27.113:8085/en/");
+       driver.manage().window().maximize();
+   }
+
+/*    @BeforeEach
     public void openUp() {
         //open the Chrome webdriver and maximize the window before performing each test case
         //System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
-        driver = new ChromeDriver();
+        // driver = new ChromeDriver();
         //driver = new FirefoxDriver();
-        js = (JavascriptExecutor) driver;
-        driver.get("http://40.76.27.113:8085/en/");
-        driver.manage().window().maximize();
 
-    }
+    }*/
 
     public void LoginExistingUser(String EmailId, String PassWord){
         //Function to log into the existing user account
@@ -39,8 +45,8 @@ public class BaseClass {
     }
 
 
-   @AfterEach
-    public void tearDown(){
+   @AfterAll
+    public static void tearDown(){
        // Close the Chrome webpage after performing each test case
         driver.quit();
     }
