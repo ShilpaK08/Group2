@@ -12,6 +12,7 @@ public class TestArtPage extends ArtPage {
 
     @Test
     public void TestOpenArtTab() {
+        System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
 
         OpenArtTab();
         String expUrl = "http://40.76.27.113:8085/en/9-art";
