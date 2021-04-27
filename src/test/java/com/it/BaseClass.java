@@ -41,6 +41,7 @@ public class BaseClass {
 
    @BeforeAll
    public static void SetUp(){
+       System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
        driver = new ChromeDriver();
        js = (JavascriptExecutor) driver;
        driver.get("http://40.76.27.113:8085/en/");
