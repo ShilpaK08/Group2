@@ -45,6 +45,7 @@ public class BaseClass {
        js = (JavascriptExecutor) driver;
        driver.get("http://40.76.27.113:8085/en/");
        driver.manage().window().maximize();
+       System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
    }
 
 /*    @BeforeEach
