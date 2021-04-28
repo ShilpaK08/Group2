@@ -19,7 +19,7 @@ public class TestClothsMen extends ClothsMen {
     //TC for Cloths Men from Home page
     @Test
     public void ClickonCloths() throws InterruptedException {
-        LoginExistingUser("testacct@gmail.com","Test@1234");
+       // LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         WebElement E3 = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div/nav/ol"));
         String S0 = E3.getText();
@@ -39,7 +39,7 @@ public class TestClothsMen extends ClothsMen {
     //Filter by size option
     @Test
     public void SelectSize() throws InterruptedException {
-        LoginExistingUser("testacct@gmail.com","Test@1234");
+        //LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         ChooseSize(M);
         assertTrue(driver.findElement(By.xpath(SizeResult)).isEnabled());
@@ -51,7 +51,7 @@ public class TestClothsMen extends ClothsMen {
     //Filter by color option
     @Test
     public void SelectColor() throws InterruptedException {
-        LoginExistingUser("testacct@gmail.com","Test@1234");
+        //LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         ChooseColor(Black);
         assertTrue(driver.findElement(By.xpath(ColorResult)).isEnabled());
@@ -60,7 +60,7 @@ public class TestClothsMen extends ClothsMen {
     //Filter by Relevance
     @Test
     public void SortbyRelevance() throws InterruptedException {
-        LoginExistingUser("testacct@gmail.com","Test@1234");
+        //LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         ChooseRelevance(SortbyRelevance, 2);
         assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
@@ -70,7 +70,7 @@ public class TestClothsMen extends ClothsMen {
     @Test
     public void ProductImage() throws InterruptedException
     {
-        LoginExistingUser("testacct@gmail.com","Test@1234");
+       // LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         WebElement E9 = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/a/img"));
         js = (JavascriptExecutor) driver;
@@ -86,7 +86,7 @@ public class TestClothsMen extends ClothsMen {
     @Test
     public void ClickonProductImage() throws InterruptedException
     {
-        LoginExistingUser("testacct@gmail.com", "Test@1234");
+        //LoginExistingUser("testacct@gmail.com", "Test@1234");
         SelectMen();
         driver.findElement(By.xpath
                 ("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/a[1]")).click();
@@ -141,7 +141,7 @@ public class TestClothsMen extends ClothsMen {
     @Test
     public void QuickviewMan() throws InterruptedException
     {
-        LoginExistingUser("testacct@gmail.com", "Test@1234");
+        //LoginExistingUser("testacct@gmail.com", "Test@1234");
         SelectMen();
         WebElement E16 = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/a/img"));
         js.executeScript("arguments[0].scrollIntoView();", E16 );
