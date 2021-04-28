@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="" />
+    <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +28,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FinalReport" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestArtPage">
+  <component name="RunManager" selected="JUnit.All in Group2">
     <configuration name="All in Group2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,44 +73,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testHomeAccessories.testDesciption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.testHomeAccessories" />
-      <option name="METHOD_NAME" value="testDesciption" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testHomeAccessories.testShareLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.testHomeAccessories" />
-      <option name="METHOD_NAME" value="testShareLink" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="testHomeAccessories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestArtPage" />
         <item itemvalue="JUnit.All in Group2" />
-        <item itemvalue="JUnit.testHomeAccessories.testShareLink" />
-        <item itemvalue="JUnit.testHomeAccessories.testDesciption" />
+        <item itemvalue="JUnit.TestArtPage" />
         <item itemvalue="JUnit.LoginAccount" />
       </list>
     </recent_temporary>
