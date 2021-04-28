@@ -371,4 +371,1085 @@
   <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
 </httpSample>
 
+<httpSample t="569" it="0" lt="342" ct="128" ts="1619537025578" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48863" sby="122" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="577" it="0" lt="357" ct="132" ts="1619537025578" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48867" sby="122" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="518" it="0" lt="297" ct="111" ts="1619537025672" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="503" it="0" lt="284" ct="109" ts="1619537025770" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48865" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="503" it="0" lt="279" ct="105" ts="1619537025871" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="534" it="0" lt="305" ct="109" ts="1619537025969" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48863" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="473" it="0" lt="347" ct="0" ts="1619537026156" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55193" sby="131" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="598" it="0" lt="468" ct="0" ts="1619537026156" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55193" sby="131" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="699" it="0" lt="479" ct="108" ts="1619537026071" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48861" sby="122" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="608" it="0" lt="492" ct="0" ts="1619537026191" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55187" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="690" it="0" lt="463" ct="108" ts="1619537026162" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48861" sby="122" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="485" it="0" lt="373" ct="0" ts="1619537026375" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55187" sby="131" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="629" it="0" lt="512" ct="0" ts="1619537026274" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55189" sby="131" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="730" it="0" lt="507" ct="106" ts="1619537026262" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48865" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="631" it="0" lt="413" ct="108" ts="1619537026374" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48865" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
+<httpSample t="589" it="0" lt="371" ct="137" ts="1619548212816" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48861" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="599" it="0" lt="384" ct="136" ts="1619548212817" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48859" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="550" it="0" lt="329" ct="109" ts="1619548212875" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="515" it="0" lt="297" ct="111" ts="1619548212975" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="488" it="0" lt="276" ct="106" ts="1619548213077" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48863" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="495" it="0" lt="281" ct="107" ts="1619548213176" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="530" it="0" lt="311" ct="111" ts="1619548213284" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="589" it="0" lt="467" ct="0" ts="1619548213417" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55189" sby="131" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="604" it="0" lt="490" ct="0" ts="1619548213491" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55195" sby="131" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="737" it="0" lt="625" ct="0" ts="1619548213426" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55195" sby="131" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="628" it="0" lt="517" ct="0" ts="1619548213575" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55193" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="745" it="0" lt="531" ct="107" ts="1619548213474" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48867" sby="122" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="551" it="0" lt="436" ct="0" ts="1619548213672" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="55195" sby="131" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="841" it="0" lt="614" ct="109" ts="1619548213384" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48867" sby="122" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="682" it="0" lt="459" ct="109" ts="1619548213576" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48867" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="864" it="0" lt="645" ct="0" ts="1619548213416" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55189" sby="131" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+
+<httpSample t="554" it="0" lt="344" ct="129" ts="1619549092487" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48863" sby="122" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="573" it="0" lt="354" ct="131" ts="1619549092486" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48863" sby="122" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="519" it="0" lt="298" ct="111" ts="1619549092582" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48863" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="502" it="0" lt="283" ct="109" ts="1619549092682" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48861" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="514" it="0" lt="295" ct="108" ts="1619549092785" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48863" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="502" it="0" lt="273" ct="106" ts="1619549092872" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="498" it="0" lt="380" ct="0" ts="1619549093049" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55195" sby="131" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="541" it="0" lt="428" ct="0" ts="1619549093062" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55195" sby="131" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="671" it="0" lt="450" ct="106" ts="1619549092981" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="573" it="0" lt="461" ct="0" ts="1619549093102" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55181" sby="131" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="573" it="0" lt="461" ct="0" ts="1619549093185" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55190" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="724" it="0" lt="504" ct="114" ts="1619549093073" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48865" sby="122" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="529" it="0" lt="417" ct="0" ts="1619549093300" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55193" sby="131" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="468" it="0" lt="358" ct="0" ts="1619549093376" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="55187" sby="131" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="713" it="0" lt="493" ct="108" ts="1619549093182" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48867" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="661" it="0" lt="441" ct="116" ts="1619549093282" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48867" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
+<httpSample t="589" it="0" lt="380" ct="134" ts="1619549194295" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="557" it="0" lt="345" ct="108" ts="1619549194354" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="634" it="0" lt="416" ct="139" ts="1619549194295" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="516" it="0" lt="293" ct="109" ts="1619549194453" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48861" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="501" it="0" lt="278" ct="106" ts="1619549194553" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48865" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="494" it="0" lt="278" ct="106" ts="1619549194657" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48865" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="314" it="0" lt="299" ct="0" ts="1619549194912" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55181" sby="131" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="510" it="0" lt="298" ct="107" ts="1619549194753" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="580" it="0" lt="464" ct="0" ts="1619549194930" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55191" sby="131" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="616" it="0" lt="501" ct="0" ts="1619549194896" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55193" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="636" it="0" lt="512" ct="0" ts="1619549194970" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55185" sby="131" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="566" it="0" lt="454" ct="0" ts="1619549195057" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55193" sby="131" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="650" it="0" lt="422" ct="106" ts="1619549195058" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48867" sby="122" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="857" it="0" lt="629" ct="107" ts="1619549194854" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48867" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="769" it="0" lt="547" ct="113" ts="1619549194945" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48863" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
+<httpSample t="603" it="0" lt="389" ct="136" ts="1619603221688" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="609" it="0" lt="395" ct="134" ts="1619603221689" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="564" it="0" lt="345" ct="109" ts="1619603221742" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48863" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="500" it="0" lt="287" ct="106" ts="1619603221846" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="497" it="0" lt="275" ct="107" ts="1619603221946" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="498" it="0" lt="282" ct="109" ts="1619603222044" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="499" it="0" lt="287" ct="106" ts="1619603222145" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="537" it="0" lt="421" ct="0" ts="1619603222303" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55191" sby="131" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="541" it="0" lt="425" ct="0" ts="1619603222302" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55193" sby="131" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="652" it="0" lt="538" ct="0" ts="1619603222307" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55195" sby="131" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="673" it="0" lt="562" ct="0" ts="1619603222347" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55195" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="798" it="0" lt="581" ct="106" ts="1619603222243" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48867" sby="122" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="637" it="0" lt="524" ct="0" ts="1619603222444" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55193" sby="131" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="540" it="0" lt="423" ct="0" ts="1619603222543" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="55195" sby="131" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="754" it="0" lt="533" ct="109" ts="1619603222342" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48867" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="742" it="0" lt="529" ct="107" ts="1619603222441" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48867" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
+<httpSample t="590" it="0" lt="372" ct="136" ts="1619610253763" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="590" it="0" lt="372" ct="136" ts="1619610253763" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48863" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="545" it="0" lt="331" ct="107" ts="1619610253839" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="489" it="0" lt="278" ct="107" ts="1619610253938" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="492" it="0" lt="278" ct="106" ts="1619610254040" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="499" it="0" lt="280" ct="108" ts="1619610254139" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48865" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="578" it="0" lt="466" ct="0" ts="1619610254362" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55195" sby="131" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="716" it="0" lt="503" ct="107" ts="1619610254239" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="651" it="0" lt="537" ct="0" ts="1619610254362" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55195" sby="131" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="654" it="0" lt="543" ct="0" ts="1619610254385" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55195" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="637" it="0" lt="526" ct="0" ts="1619610254428" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55193" sby="131" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="778" it="0" lt="555" ct="107" ts="1619610254341" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48865" sby="122" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="580" it="0" lt="464" ct="0" ts="1619610254541" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55193" sby="131" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="676" it="0" lt="455" ct="110" ts="1619610254541" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48863" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="803" it="0" lt="577" ct="107" ts="1619610254429" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48863" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
+<httpSample t="572" it="0" lt="360" ct="106" ts="1619610536371" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="613" it="0" lt="401" ct="138" ts="1619610536329" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="524" it="0" lt="310" ct="107" ts="1619610536463" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48865" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="660" it="0" lt="441" ct="138" ts="1619610536330" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="511" it="0" lt="294" ct="109" ts="1619610536571" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48865" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="523" it="0" lt="302" ct="107" ts="1619610536672" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="517" it="0" lt="280" ct="108" ts="1619610536769" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="522" it="0" lt="414" ct="0" ts="1619610536960" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55187" sby="131" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="644" it="0" lt="431" ct="106" ts="1619610536872" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48867" sby="122" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="570" it="0" lt="460" ct="0" ts="1619610536960" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55195" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="623" it="0" lt="514" ct="0" ts="1619610536989" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55186" sby="131" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="557" it="0" lt="443" ct="0" ts="1619610537083" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55195" sby="131" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="650" it="0" lt="537" ct="0" ts="1619610536992" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55189" sby="131" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="750" it="0" lt="538" ct="106" ts="1619610536962" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48867" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="669" it="0" lt="453" ct="109" ts="1619610537062" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48867" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
+<httpSample t="605" it="0" lt="393" ct="140" ts="1619620042952" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="618" it="0" lt="395" ct="140" ts="1619620042952" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48865" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="602" it="0" lt="379" ct="109" ts="1619620043002" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48861" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="521" it="0" lt="302" ct="109" ts="1619620043102" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="496" it="0" lt="278" ct="105" ts="1619620043204" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="512" it="0" lt="277" ct="105" ts="1619620043302" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="516" it="0" lt="291" ct="106" ts="1619620043401" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48867" sby="122" ng="9" na="9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="553" it="0" lt="443" ct="0" ts="1619620043571" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55193" sby="131" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="561" it="0" lt="448" ct="0" ts="1619620043569" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55191" sby="131" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="601" it="0" lt="488" ct="0" ts="1619620043605" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="55193" sby="131" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="746" it="0" lt="523" ct="109" ts="1619620043492" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48863" sby="122" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="630" it="0" lt="516" ct="0" ts="1619620043624" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="55188" sby="131" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="556" it="0" lt="440" ct="0" ts="1619620043712" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="55185" sby="131" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="708" it="0" lt="489" ct="105" ts="1619620043596" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48865" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="649" it="0" lt="434" ct="106" ts="1619620043712" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48865" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
+<httpSample t="786" it="0" lt="463" ct="138" ts="1619620244149" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="48865" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="859" it="0" lt="633" ct="300" ts="1619620244301" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="670" it="0" lt="440" ct="109" ts="1619620244492" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="48867" sby="122" ng="10" na="10">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="976" it="0" lt="756" ct="398" ts="1619620244202" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="48867" sby="122" ng="8" na="8">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="803" it="0" lt="591" ct="200" ts="1619620244401" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="48867" sby="122" ng="7" na="7">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="627" it="0" lt="400" ct="113" ts="1619620244602" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="48865" sby="122" ng="6" na="6">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="556" it="0" lt="335" ct="109" ts="1619620244698" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="48863" sby="122" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="502" it="0" lt="285" ct="105" ts="1619620244798" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="48867" sby="122" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="455" it="0" lt="238" ct="0" ts="1619620244945" s="true" lb="Clothes" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="55180" sby="131" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/3-clothes</java.net.URL>
+</httpSample>
+<httpSample t="513" it="0" lt="299" ct="106" ts="1619620244898" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="48867" sby="122" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+<httpSample t="4288" it="0" lt="4067" ct="1161" ts="1619620244149" s="true" lb="Homepage" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="48865" sby="122" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://40.76.27.113:8085/en/</java.net.URL>
+</httpSample>
+
 </testResults>
