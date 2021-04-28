@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/ArtPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/HomeAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestArtPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/testHomeAccessories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FinalReport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

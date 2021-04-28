@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestClothsMen extends ClothsMen {
     //TC for Cloths Men from Home page
-    /*@Test
+    @Test
     public void ClickonCloths() throws InterruptedException {
         LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
@@ -148,7 +148,7 @@ public class TestClothsMen extends ClothsMen {
         Actions action1 = new Actions(driver);
         action1.moveToElement(E16).perform();
         driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/div[2]/a[1]")).click();
-
+        driver.findElement(By.xpath("//span[contains(text(),'×')]")).click();
     }
 
     //Continue Shopping in add to cart page
@@ -175,7 +175,7 @@ public class TestClothsMen extends ClothsMen {
     }
 
     //ZoomIn functionality
-    @Test
+   /* @Test
     public void ZoomIn() throws InterruptedException
     {
         LoginExistingUser("testacct@gmail.com", "Test@1234");
