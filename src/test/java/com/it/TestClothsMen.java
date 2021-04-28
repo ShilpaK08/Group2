@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestClothsMen extends ClothsMen {
     //TC for Cloths Men from Home page
-    @Test
+  /*  @Test
     public void ClickonCloths() throws InterruptedException {
        // LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
@@ -175,7 +175,7 @@ public class TestClothsMen extends ClothsMen {
     }
 
     //ZoomIn functionality
-   /* @Test
+    @Test
     public void ZoomIn() throws InterruptedException
     {
         LoginExistingUser("testacct@gmail.com", "Test@1234");
