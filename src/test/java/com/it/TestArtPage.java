@@ -13,6 +13,7 @@ public class TestArtPage extends ArtPage {
     @Test
     public void TestOpenArtTab() {
 
+
         OpenArtTab();
         String expUrl = "http://40.76.27.113:8085/en/9-art";
         String curUrl = driver.getCurrentUrl();
