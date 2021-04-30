@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject.jmx" afterDir="false" />
@@ -24,6 +25,9 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestStationary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestStationary.class" afterDir="false" />
     </list>
+=======
+    <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="" />
+>>>>>>> 68ac73e32056343d4526fd3ee25d41177286f8f8
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestArtPage">
+  <component name="RunManager" selected="JUnit.TestClothsMen.SortbyRelevance">
     <configuration name="All in Group2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,10 +124,17 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.TestArtPage" />
         <item itemvalue="JUnit.TestClothsMen.SortbyRelevance" />
         <item itemvalue="JUnit.testHomeAccessories" />
         <item itemvalue="JUnit.All in Group2" />
+=======
+        <item itemvalue="JUnit.TestClothsMen.SortbyRelevance" />
+        <item itemvalue="JUnit.testHomeAccessories" />
+        <item itemvalue="JUnit.All in Group2" />
+        <item itemvalue="JUnit.TestArtPage" />
+>>>>>>> 68ac73e32056343d4526fd3ee25d41177286f8f8
         <item itemvalue="JUnit.LoginAccount" />
       </list>
     </recent_temporary>
