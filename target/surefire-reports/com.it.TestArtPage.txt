@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.it.TestArtPage
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 23.182 s <<< FAILURE! - in com.it.TestArtPage
-com.it.TestArtPage.TestQuickView  Time elapsed: 2.59 s  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a class="quick-view" href="#" data-link-action="quickview">...</a> is not clickable at point (895, 702). Other element would receive the click: <a href="http://40.76.27.113:8085/en/art/13-brown-bear-vector-graphics.html">...</a>
-  (Session info: chrome=90.0.4430.93)
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-1QINI2ME', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\FANG~1.FAN\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 06c0c03ec2ea5ed2c3ec902ca28a4cdb
-	at com.it.TestArtPage.TestQuickView(TestArtPage.java:78)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 136.359 s - in com.it.TestArtPage
