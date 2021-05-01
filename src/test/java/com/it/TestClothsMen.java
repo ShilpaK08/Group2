@@ -24,15 +24,19 @@ public class TestClothsMen extends ClothsMen {
         WebElement E3 = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div/nav/ol"));
         String S0 = E3.getText();
         Assertions.assertEquals("Home Clothes Men", S0);
+        Thread.sleep(1000);
         WebElement E4 = driver.findElement(By.xpath("//*[@id=\"left-column\"]/div[1]/ul/li[1]/a"));
         String S1 = E4.getText();
         Assertions.assertEquals("MEN", S1);
+        Thread.sleep(1000);
         WebElement E5 = driver.findElement(By.xpath("//*[@id=\"search_filters\"]/p"));
         String S2 = E5.getText();
         Assertions.assertEquals("FILTER BY", S2);
+        Thread.sleep(1000);
         WebElement E6 = driver.findElement(By.xpath("//*[@id=\"js-product-list-header\"]/div/h1"));
         String S3 = E6.getText();
         Assertions.assertEquals("MEN", S3);
+        Thread.sleep(1000);
 
     }
 
@@ -54,6 +58,7 @@ public class TestClothsMen extends ClothsMen {
         //LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         ChooseColor(Black);
+        Thread.sleep(500);
         assertTrue(driver.findElement(By.xpath(ColorResult)).isEnabled());
     }
 
@@ -99,25 +104,35 @@ public class TestClothsMen extends ClothsMen {
         //Size dropdown verification
         WebElement E11 = driver.findElement(By.xpath("//select[@id='group_1']"));
         E11.click();
-        if (E11.isEnabled() && E11.isDisplayed()) {
+        Thread.sleep(500);
+        if(E11.isEnabled() && E11.isDisplayed())
+        {
             System.out.println("Dropdown is enabled and visible");
-        } else {
+        }
+        else {
             System.out.println("Dropdown is not visible");
         }
+        Thread.sleep(500);
         //Quantity dropdown verification
         WebElement E12 = driver.findElement(By.xpath("//span[contains(text(),'Quantity')]"));
         String S7 = E12.getText();
         Assertions.assertEquals("Quantity", S7);
+        Thread.sleep(500);
         WebElement E13 = driver.findElement(By.xpath("//input[@id='quantity_wanted']"));
-        if (E13.isEnabled()) {
+        if(E13.isEnabled())
+        {
             System.out.println("Dropdown is enabled");
-        } else {
+        }
+        else
+        {
             System.out.println("Drop down is not enabled");
         }
+        Thread.sleep(500);
         driver.findElement(By.xpath
                 ("//body/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[2]/div[2]" +
                         "/form[1]/div[2]/div[1]/div[1]/div[1]/span[3]/button[1]/i[1]")).click();
         System.out.println("The quantity is added");
+        Thread.sleep(500);
         driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]" +
                 "/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/button[1]")).click();
         //Add to cart page verification
@@ -146,7 +161,7 @@ public class TestClothsMen extends ClothsMen {
     //Continue Shopping in add to cart page
     @Test
     public void ContinueShopping() throws InterruptedException {
-        LoginExistingUser("testacct@gmail.com", "Test@1234");
+        //LoginExistingUser("testacct@gmail.com", "Test@1234");
         SelectMen();
         //ProductImage clicking
         driver.findElement(By.xpath
@@ -163,6 +178,7 @@ public class TestClothsMen extends ClothsMen {
         WebElement E17 = driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/nav[1]/ol[1]"));
         String S8 = E17.getText();
         Assertions.assertEquals("Home Clothes Men Hummingbird printed t-shirt", S8);
+        Thread.sleep(500);
     }
 
     //ZoomIn functionality
