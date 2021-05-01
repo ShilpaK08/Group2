@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.it.TestClothsMen
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 154.008 s <<< FAILURE! - in com.it.TestClothsMen
-com.it.TestClothsMen.ClickonProductImage  Time elapsed: 30.757 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Product successfully added to your shopping cart> but was: <Product successfully added to your shopping cart>
-	at com.it.TestClothsMen.ClickonProductImage(TestClothsMen.java:135)
-
