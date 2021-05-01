@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/ClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/ClothsMen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestClothsMen.SelectColor">
+  <component name="RunManager" selected="JUnit.TestClothsMen">
     <configuration name="TestClothsMen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -49,7 +49,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClothsMen.ClickonCloths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClothsMen.ContinueShopping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
         <pattern>
@@ -59,7 +59,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.it" />
       <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
-      <option name="METHOD_NAME" value="ClickonCloths" />
+      <option name="METHOD_NAME" value="ContinueShopping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClothsMen.QuickviewMan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="METHOD_NAME" value="QuickviewMan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClothsMen.SortbyRelevance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClothsMen.SelectSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
         <pattern>
@@ -91,23 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.it" />
       <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
-      <option name="METHOD_NAME" value="SortbyRelevance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClothsMen.ZoomIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
-      <option name="METHOD_NAME" value="ZoomIn" />
+      <option name="METHOD_NAME" value="SelectSize" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClothsMen.SelectColor" />
-        <item itemvalue="JUnit.TestClothsMen.ClickonCloths" />
         <item itemvalue="JUnit.TestClothsMen" />
-        <item itemvalue="JUnit.TestClothsMen.ZoomIn" />
-        <item itemvalue="JUnit.TestClothsMen.SortbyRelevance" />
+        <item itemvalue="JUnit.TestClothsMen.SelectSize" />
+        <item itemvalue="JUnit.TestClothsMen.QuickviewMan" />
+        <item itemvalue="JUnit.TestClothsMen.SelectColor" />
+        <item itemvalue="JUnit.TestClothsMen.ContinueShopping" />
       </list>
     </recent_temporary>
   </component>
