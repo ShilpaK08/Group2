@@ -23,7 +23,7 @@ public class TestClothsMen extends ClothsMen {
         //LoginExistingUser("testacct@gmail.com","Test@1234");
         SelectMen();
         String currenturl = driver.getCurrentUrl();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         String url = "http://40.76.27.113:8085/en/4-men";
         assertEquals(url, currenturl);
     }
@@ -68,7 +68,7 @@ public class TestClothsMen extends ClothsMen {
         js.executeScript("arguments[0].scrollIntoView();", E9);
         Actions action1 = new Actions(driver);
         action1.moveToElement(E9).perform();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         System.out.println("The quickview is displayed");
         driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/div[2]/a")).click();
     }
@@ -97,7 +97,7 @@ public class TestClothsMen extends ClothsMen {
         Actions action1 = new Actions(driver);
         action1.moveToElement(E16).perform();
         driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/div[2]/a[1]")).click();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//span[contains(text(),'×')]")).click();
     }
 
@@ -113,10 +113,10 @@ public class TestClothsMen extends ClothsMen {
         driver.findElement(By.xpath
                 ("//body/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/button[1]")).click();
         driver.switchTo().activeElement();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         //Click on continue shopping
         driver.findElement(By.xpath("//button[contains(text(),'Continue shopping')]")).click();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         //Home  Clothes  Men  Hummingbird printed t-shirt page header verification
         WebElement E17 = driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/nav[1]/ol[1]"));
         String S8 = E17.getText();
