@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/ClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/ClothsMen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestClothsMen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/ClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/ClothsMen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/TestClothsMen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClothsMen.ClickonProductImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="METHOD_NAME" value="ClickonProductImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClothsMen.ContinueShopping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -61,6 +78,22 @@
       <option name="PACKAGE_NAME" value="com.it" />
       <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
       <option name="METHOD_NAME" value="ContinueShopping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClothsMen.ProductImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="METHOD_NAME" value="ProductImage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,44 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClothsMen.SelectColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
-      <option name="METHOD_NAME" value="SelectColor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClothsMen.SelectSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
-      <option name="METHOD_NAME" value="SelectSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestClothsMen" />
-        <item itemvalue="JUnit.TestClothsMen.SelectSize" />
+        <item itemvalue="JUnit.TestClothsMen.ProductImage" />
+        <item itemvalue="JUnit.TestClothsMen.ClickonProductImage" />
         <item itemvalue="JUnit.TestClothsMen.QuickviewMan" />
-        <item itemvalue="JUnit.TestClothsMen.SelectColor" />
         <item itemvalue="JUnit.TestClothsMen.ContinueShopping" />
       </list>
     </recent_temporary>
@@ -155,5 +156,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinalProject$TestClothsMen.ic" NAME="TestClothsMen Coverage Results" MODIFIED="1619880099132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.it.*</FILTER>
+    </SUITE>
   </component>
 </project>

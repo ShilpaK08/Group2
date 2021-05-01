@@ -28,14 +28,16 @@ public class ClothsMen extends BaseClass {
     //Navigate to cloths men page
     public void SelectMen() throws InterruptedException {
         WebElement E1, E2;
-        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
         E1 = driver.findElement(By.id("category-3"));
         Actions action = new Actions(driver);
         action.moveToElement(E1).perform();
         Thread.sleep(1000);
-        E2 = driver.findElement(By.id("category-4"));
+        E2 = driver.findElement(By.xpath("/html/body/main/header/div[2]/div/div[1]/div[2]/div[1]/ul/li[1]/div/ul/li[1]"));
         E2.click();
-        Thread.sleep(1000);
+
+        /*driver.findElement(By.xpath("/html[1]/body[1]/main[1]/header[1]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]")).click();
+        driver.findElement(By.xpath("/html/body/main/section/div/div[1]/div[1]/ul/li[2]/ul/li[1]/a")).click();*/
+
     }
 
     //Filter by SIZE
