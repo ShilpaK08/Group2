@@ -12,7 +12,7 @@ pipeline {
         maven 'M3'
     }
     stages {
-        stage ('Build') {
+       /* stage ('Build') {
            steps {
                 bat 'mvn clean install'
             }
@@ -21,7 +21,15 @@ pipeline {
                     junit 'target/surefire-reports/**/*.xml'
                 }
             } 
+        }*/
+		stages {
+        stage("build") {
+            steps {
+
+                bat "mvn -Dmaven.test.failure.ignore=true clean compile"
+            }
         }
+
 		stage("test") {
             steps {
                 echo 'testing the application...'
