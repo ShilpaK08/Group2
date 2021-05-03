@@ -14,11 +14,11 @@ pipeline {
     stages {
        /* stage ('Build') {
            steps {
-                bat 'mvn clean install'
+               echo ''  bat 'mvn clean install'
             }
             post {
                 success {
-                    junit 'target/surefire-reports/**/*.xml'
+                  echo ''   junit 'target/surefire-reports/**/*.xml'
                 }
             } 
         }*/
