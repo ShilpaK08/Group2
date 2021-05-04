@@ -81,7 +81,7 @@ public class TestArtPage extends ArtPage {
     }
 
     //@Test
-    public void TestAddToCart() throws InterruptedException {
+    /*public void TestAddToCart() throws InterruptedException {
 
         int windowCount = driver.getWindowHandles().size();
 
@@ -91,7 +91,7 @@ public class TestArtPage extends ArtPage {
         Assertions.assertEquals(windowCount, currentSize);
 
 
-    }
+    } */
 
     @Test
     public void TestFacebook() throws InterruptedException {
