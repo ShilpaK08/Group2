@@ -58,7 +58,7 @@ import org.openqa.selenium.interactions.Actions;
 
         }
 
-        public void clickView(String view)
+        /*public void clickView(String view)
         {
             Actions action = new Actions(driver);
             WebElement E = driver.findElement(By.xpath(view));
@@ -70,7 +70,7 @@ import org.openqa.selenium.interactions.Actions;
             js.executeScript("window.scrollBy(0,250)");
             Thread.sleep(1000);
             driver.findElement(By.xpath(Mountain)).click();
-        }
+        }*/
 
     }
 
