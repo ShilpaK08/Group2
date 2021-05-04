@@ -1,10 +1,8 @@
 package com.it;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
@@ -18,11 +16,13 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestClotheswomen extends ClothesWomen {
 
     @Test
+
     public void testCorrectUrl() throws InterruptedException {
         TestUrl();
         String currentUrl = driver.getCurrentUrl();
         Thread.sleep(1000);
         String url = "http://40.76.27.113:8085/en/5-women";
+        Thread.sleep(1000);
         assertEquals(url, currentUrl, "url differs");
     }
 
@@ -30,41 +30,22 @@ public class TestClotheswomen extends ClothesWomen {
     @Test
     public void testSortBy() throws InterruptedException {
         //Testing the Sortby dropdown
-        sortBy(Relevance, 1);
+        sortBy(Relevance, 0);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //Select SelectDropdown = new Select(driver.findElement(By.xpath(Relevance)));
-        //Thread.sleep(2000);
-        //assertTrue(SelectDropdown.getAllSelectedOptions().contains(Relevance));
-        //assertEquals("Relevance", SelectDropdown);
-        //assertEquals("Name, A to Z", SelectDropdown.selectByValue("Name, A to Z"));
+        WebElement SelectDropdown = (driver.findElement(By.xpath(Relevance)));
+        SelectDropdown.click();
+        Assertions.assertTrue((driver.findElement(By.xpath(Relevance))).isDisplayed());
         System.out.println("testing Sort Method");
     }
 
-/*
+
     @Test
     public void testFilterBy() throws InterruptedException {
         filterBy();
-        Thread.sleep(1000);
-        WebElement Checkbox1 = driver.findElement(By.xpath("//input[@id='facet_input_66356_0']"));
-       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //js.executeScript("window.scrollBy(0,500)");
-        assertTrue(Checkbox1.isSelected());
-/*
-          WebElement Checkbox2 = driver.findElement(By.xpath("//*[@id=\"facet_input_20468_1\"]"));
-          assertTrue(Checkbox2.isSelected());
-          WebElement Checkbox3 = driver.findElement(By.xpath("//*[@id=\"facet_37025\"]/li[3]/label/span/span/i"));
-          assertTrue(Checkbox3.isSelected());
-          WebElement Checkbox4 = driver.findElement(By.xpath("//*[@id=\"facet_37025\"]/li[4]/label/span/span"));
-          assertTrue(Checkbox4.isSelected());
+        //Thread.sleep(1000);
+        WebElement Checkbox = driver.findElement((By.xpath("//*[@id=\"category\"]")));
+        assertTrue(Checkbox.isEnabled());
     }
-
-
-    @Test
-    public void testFilterBycategory(){
-        filterByCategory();
-        ass
-    }*/
-
 
     @Test
     public void testproductPicture() {
@@ -74,6 +55,7 @@ public class TestClotheswomen extends ClothesWomen {
         assertEquals(Url, CurrentUrl);
 
     }
+
     /*
     @Test
         public void testQuickview() {
@@ -93,15 +75,25 @@ public class TestClotheswomen extends ClothesWomen {
     }
 
     @Test
-        public void testQuickviewUpdate() throws InterruptedException {
-       // QuickviewUpdate();
+    public  void testQuickviewUpdate() throws InterruptedException {
+        // QuickviewUpdate();
         driver.get("http://40.76.27.113:8085/en/5-women");
-        WebDriverWait wait = new WebDriverWait(driver,30);
-        js.executeScript("window.scrollBy(0,200)");
+        // WebDriverWait wait = new WebDriverWait(driver, 30);
         //driver.switchTo().frame(0); //need to switch to this frame before clicking the slider
-        Actions move = new Actions(driver);
-        WebElement Quickview = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/div[2]/a"));
-        move.moveToElement(Quickview).build().perform();
+        Actions actions = new Actions(driver);
+        WebElement quickview = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article/div/div[2]/a"));
+
+        //js.executeScript("arguments[0].scrollIntoView();", quickview);
+        //Thread.sleep(1000);
+        actions.moveToElement(quickview).perform();
+        quickview.click();
+
+        int windowCount = driver.getWindowHandles().size();
+        int currentSize = driver.getWindowHandles().size();
+        //int exceptSize = windowCount + 1;
+        Assertions.assertEquals(windowCount, currentSize);
+
+
 /*
         //Action action = (Action) move.click().build();
         move.perform();
@@ -118,16 +110,43 @@ public class TestClotheswomen extends ClothesWomen {
             }
     Thread.sleep(5000);
     System.out.println("Value incremented");
+*/
 
-/*
-            String windowTitle= getCurrentWindowTitle();
+           /* String windowTitle= getCurrentWindowTitle();
             String mainWindow = getMainWindowHandle(driver);
             assertTrue(closeAllOtherWindows(mainWindow));
-            assertTrue(windowTitle.contains("Jobs - Recruitment"), "Main window title is not matching");
-*/
+            assertTrue(windowTitle.contains("HUMMINGBIRD PRINTED SWEATER"), "Main window title is not matching");
+            */
         }
 
 
+    @Test
+    public void testcontinueShopping() throws InterruptedException {
+        productPicture();
+        Thread.sleep(1000);
+        WebElement addtocart = driver.findElement(By.xpath("//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[2]/button"));
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        addtocart.click();
+        WebElement Continuebutton = driver.findElement(By.xpath("//*[@id=\"product\"]"));
+        Thread.sleep(1000);
+        Continuebutton.click();
+        Assertions.assertTrue(driver.findElement(By.partialLinkText("Hummingbird printed sweater")).isDisplayed());
+
+    }
+
+    @Test
+    public void testProceedToCheckout() throws InterruptedException {
+        productPicture();
+        Thread.sleep(1000);
+        WebElement addtocart = driver.findElement(By.xpath("//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[2]/button"));
+        addtocart.click();
+        WebElement proceedToCheckout = driver.findElement(By.xpath("//*[@id=\"product\"]"));
+        Thread.sleep(1000);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        proceedToCheckout.click();
+        //Assertions.assertTrue(driver.findElement(By.partialLinkText("Hummingbird printed sweater")).isDisplayed());
+
+    }
 }
 
 

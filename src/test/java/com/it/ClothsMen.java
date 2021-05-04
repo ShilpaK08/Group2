@@ -19,7 +19,7 @@ public class ClothsMen extends BaseClass {
     public static String SizeResult = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[1]/ul[1]/li[2]/label[1]";
     public static String White = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[1]/label/span/span";
     public static String Black = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[2]/ul[1]/li[2]/label[1]/a[1]";
-    public static String ColorResult = "//body/main[1]/section[1]/div[1]/div[1]/div[2]/div[2]/section[2]/ul[1]/li[2]/label[1]/span[1]/span[1]";
+    public static String ColorResult = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[2]/ul/li[2]/label/span/span";
     public static String SortbyRelevance = "/html/body/main/section/div/div[2]/section/section/div[1]/div/div[2]/div/div[1]/button";
     // public static String R1 = "//a[contains(text(),'Name, A to Z')]";
     // public static String RelevanceResult = "//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]";
@@ -28,13 +28,16 @@ public class ClothsMen extends BaseClass {
     //Navigate to cloths men page
     public void SelectMen() throws InterruptedException {
         WebElement E1, E2;
-        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
         E1 = driver.findElement(By.id("category-3"));
         Actions action = new Actions(driver);
         action.moveToElement(E1).perform();
-        E2 = driver.findElement(By.id("category-4"));
-        E2.click();
         Thread.sleep(1000);
+        E2 = driver.findElement(By.xpath("/html/body/main/header/div[2]/div/div[1]/div[2]/div[1]/ul/li[1]/div/ul/li[1]"));
+        E2.click();
+
+        /*driver.findElement(By.xpath("/html[1]/body[1]/main[1]/header[1]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]")).click();
+        driver.findElement(By.xpath("/html/body/main/section/div/div[1]/div[1]/ul/li[2]/ul/li[1]/a")).click();*/
+
     }
 
     //Filter by SIZE

@@ -14,12 +14,19 @@ pipeline {
     stages {
         stage ('Build') {
            steps {
-                bat 'mvn clean install'
+                 bat 'mvn clean install'
             }
             post {
                 success {
-                    junit 'target/surefire-reports/**/*.xml'
+                  junit 'target/surefire-reports/**/*.xml'
                 }
+            } 
+        }
+		
+		stage("test") {
+            steps {
+                echo 'testing the application...'
+                bat "mvn -Dmaven.test.failure.ignore=true test"
             }
         }
         /*stage ('Run Jmeter tests') {
