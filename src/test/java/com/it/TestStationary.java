@@ -19,16 +19,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
     public class TestStationary  extends Stationary
     {
-        /*@Test
+        @Test
         public void testPaperType() throws InterruptedException
         {
-                Thread.sleep(1000);
-                PaperType(Ruled);
-                assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
-<<<<<<< HEAD
-
-=======
->>>>>>> 19f90ddf83f32857e05e42a199a52fdc080dbfdf
             Thread.sleep(2000);
             openStationary(Accessories);
             Thread.sleep(2000);
@@ -43,9 +36,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             openStationary(Accessories);
             Thread.sleep(2000);
             selectDropDown(SortbyRelevance, 1);
-
             assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
-        } */
+        }
 
 
         @Test
@@ -59,15 +51,22 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         }
 
 
-        /*@Test
+        @Test
         public void testqView() throws InterruptedException
         {
             Thread.sleep(2000);
-            WebElement Element = driver.findElement(By.xpath(Nextpage));
+            WebElement Element = driver.findElement(By.xpath(Newpage));
             js.executeScript("arguments[0].scrollIntoView();", Element);
             Thread.sleep(2000);
             clickView(MountainFoxNotebook);
 
-        } */
+        }
 
+        @Test
+        public void TestDescription() throws InterruptedException
+        {
+            Description();
+            Thread.sleep(1000);
+            Assertions.assertTrue(driver.findElement(By.xpath(Mountain)).isDisplayed());
+        }
     }
