@@ -24,13 +24,15 @@ public class ArtPage extends BaseClass {
 
 
         public void Composition() throws InterruptedException {
-            //driver.get("http://40.76.27.113:8085/en/9-art");
+            driver.get("http://40.76.27.113:8085/en/9-art");
+            Thread.sleep(1000);
             driver.findElement(By.partialLinkText("Matt pap")).click();
             Thread.sleep(1000);
         }
 
         public void Brand() throws InterruptedException {
             driver.get("http://40.76.27.113:8085/en/9-art");
+            Thread.sleep(1000);
             driver.findElement(By.partialLinkText("Graphic Corn")).click();
             Thread.sleep(1000);
         }
@@ -69,13 +71,6 @@ public class ArtPage extends BaseClass {
 
         }
 
-        public void Zoom() {
-            driver.get("http://40.76.27.113:8085/en/9-art");
-            js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[5]/div[1]/a[1]/img[1]")).click();
-            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]")).click();
-        }
-
         public void Description() throws InterruptedException {
             OpenArtTab();
             Thread.sleep(1000);
@@ -106,13 +101,26 @@ public class ArtPage extends BaseClass {
     }
 
     public void Facebook() throws InterruptedException {
-            driver.get("http://40.76.27.113:8085/en/9-art");
-            js.executeScript("window.scrollBy(0,150)");
-            driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[2]/div[1]/a[1]/img[1]")).click();
-            driver.findElement(By.xpath("//a[contains(text(),'Share')]")).click();
-            Thread.sleep(1000);
-            driver.switchTo().window("Facebook");
-        }
+        OpenArtTab();
+        js.executeScript("window.scrollBy(0,150)");
+        driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[2]/div[1]/a[1]/img[1]")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//a[contains(text(),'Share')]")).click();
+        Thread.sleep(1000);
 
+    }
+
+    public void AddToCart() throws InterruptedException {
+        OpenArtTab();
+        Thread.sleep(1000);
+        js.executeScript("window.scrollBy(0,150)");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[3]/div[1]/a[1]/img[1]")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/button[1]")).click();
+        Thread.sleep(1000);
+
+
+    }
 
 }

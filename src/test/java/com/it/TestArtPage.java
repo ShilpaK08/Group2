@@ -22,20 +22,19 @@ public class TestArtPage extends ArtPage {
 
     @Test
     public void TestComposition() throws InterruptedException {
-        LoginExistingUser("testacct@gmail.com","Test@1234");
+        Thread.sleep(1000);
         OpenArtTab();
+        Thread.sleep(1000);
         Composition();
-        String expUrl1 = "http://40.76.27.113:8085/en/9-art?q=Composition-Matt+paper";
-        String curUrl1 = driver.getCurrentUrl();
-        Assertions.assertEquals(expUrl1,curUrl1);
+        String curText = driver.findElement(By.xpath("//p[contains(text(),'Active filters')]")).getText();
+        Assertions.assertEquals(curText, "Active filters");
     }
 
     @Test
     public void TestBrand() throws InterruptedException {
         Brand();
-        String expUrl1 = "http://40.76.27.113:8085/en/9-art?q=Brand-Graphic+Corner";
-        String curUrl1 = driver.getCurrentUrl();
-        Assertions.assertEquals(expUrl1,curUrl1);
+        String curText = driver.findElement(By.xpath("//p[contains(text(),'Active filters')]")).getText();
+        Assertions.assertEquals(curText, "Active filters");
     }
 
     @Test
@@ -81,15 +80,32 @@ public class TestArtPage extends ArtPage {
 
     }
 
-    /* @Test
+    //@Test
+    public void TestAddToCart() throws InterruptedException {
+
+        int windowCount = driver.getWindowHandles().size();
+
+        AddToCart();
+        Thread.sleep(1000);
+        int currentSize = driver.getWindowHandles().size();
+        Assertions.assertEquals(windowCount, currentSize);
+
+
+    }
+
+    @Test
     public void TestFacebook() throws InterruptedException {
+        int wCount = driver.getWindowHandles().size();
         Facebook();
 
-        String expUrl = "https://www.facebook.com/sharer.php?u=http%3A%2F%2F40.76.27.113%3A8085%2Fen%2Fart%2F4-the-adventure-begins-framed-poster.html";
-        String curUrl = driver.getCurrentUrl();
-        Assertions.assertEquals(expUrl,curUrl);
+        int currentSize2 = driver.getWindowHandles().size();
+        int expectSize2 = wCount + 1;
 
-    } */
+        Assertions.assertEquals(expectSize2, currentSize2);
+    }
+
+
+
 
 
 
