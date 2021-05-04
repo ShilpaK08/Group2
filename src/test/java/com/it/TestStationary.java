@@ -51,7 +51,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         }
 
 
+<<<<<<< HEAD
        /* @Test
+=======
+        /*@Test
+>>>>>>> 44365a842c7675b898aa70fa396a4020bff8cabc
         public void testqView() throws InterruptedException
         {
             Thread.sleep(2000);
