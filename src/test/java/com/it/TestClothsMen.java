@@ -66,7 +66,7 @@ public class TestClothsMen extends ClothsMen {
         Thread.sleep(1000);
         SelectMen();
         Thread.sleep(1000);
-        ChooseRelevance(SortbyRelevance, 2);
+        ChooseRelevance(SortbyRelevance, 3);
         assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
         Thread.sleep(1000);
     }
@@ -116,7 +116,7 @@ public class TestClothsMen extends ClothsMen {
         js.executeScript("arguments[0].scrollIntoView();", E16);
         Actions action1 = new Actions(driver);
         action1.moveToElement(E16).perform();
-        driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/div[2]/a[1]")).click();
+        driver.findElement(By.xpath("/html/body/main/section/div/div[2]/section/section/div[3]/div/div[1]/article/div/div[2]/a")).click();
         Thread.sleep(1000);
         driver.switchTo().activeElement();
         driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]")).click();
@@ -149,6 +149,27 @@ public class TestClothsMen extends ClothsMen {
         String S8 = E17.getText();
         Assertions.assertEquals("Home Clothes Men Hummingbird printed t-shirt", S8);*/
     }
+
+    //Header cart button and proceed to checkout
+    @Test
+    public void CartandProceedToCheckout() throws InterruptedException
+    {
+        LoginExistingUser("testacct@gmail.com", "Test@1234");
+        Thread.sleep(1000);
+        SelectMen();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/main/section/div/div[2]/section/section/div[3]/div/div[1]/article/div/a/img")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/main/section/div/div/section/div[1]/div[2]/div[2]/div[2]/form/div[2]/div/div[2]/button")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"blockcart-modal\"]/div/div/div[2]/div/div[2]/div/div/a")).click();
+        System.out.println("Shopping Cart page is displayed");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/main/header/div[2]/div/div[1]/div[1]/a/img")).click();
+        System.out.println("My Store home page is displayed ");
+        Thread.sleep(1000);
+    }
+
 
     //ZoomIn functionality
     /*@Test
