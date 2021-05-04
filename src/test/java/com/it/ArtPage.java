@@ -37,7 +37,7 @@ public class ArtPage extends BaseClass {
             Thread.sleep(1000);
         }
 
-        public void Dimensions() throws InterruptedException {
+        public static void Dimensions() throws InterruptedException {
             driver.get("http://40.76.27.113:8085/en/9-art");
 
             js.executeScript("window.scrollBy(0,150)");

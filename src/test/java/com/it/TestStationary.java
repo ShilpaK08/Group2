@@ -51,7 +51,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         }
 
 
-        @Test
+       /* @Test
         public void testqView() throws InterruptedException
         {
             Thread.sleep(2000);
@@ -68,5 +68,5 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             Description();
             Thread.sleep(1000);
             Assertions.assertTrue(driver.findElement(By.xpath(Mountain)).isDisplayed());
-        }
+        }*/
     }
