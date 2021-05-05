@@ -19,15 +19,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
     public class TestStationary  extends Stationary
     {
-        /*@Test
+        @Test
         public void testPaperType() throws InterruptedException
         {
             Thread.sleep(2000);
             openStationary(Accessories);
             Thread.sleep(2000);
-            PaperType(Ruled);
-            assertTrue(driver.findElement(By.xpath(Ruled)).isEnabled());
-        }*/
+            assertTrue(driver.findElement(By.xpath(papertype)).isEnabled());
+        }
 
         @Test
         public void testDropDown() throws InterruptedException
@@ -36,7 +35,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             openStationary(Accessories);
             Thread.sleep(2000);
             selectDropDown(SortbyRelevance, 1);
-           // assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
+            assertTrue(driver.findElement(By.xpath(SortbyRelevance)).isEnabled());
         }
 
 
@@ -47,19 +46,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             openStationary(Accessories);
             Thread.sleep(2000);
             Item(MountainFoxNotebook);
-           // assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
+            assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
         }
 
 
-
-
-
-        /*@Test
-
-        public void testqView() throws InterruptedException
+        @Test
+        public void testView() throws InterruptedException
         {
             Thread.sleep(2000);
-            WebElement Element = driver.findElement(By.xpath(Newpage));
+            openStationary(Accessories);
+            WebElement Element = driver.findElement(By.xpath(view));
             js.executeScript("arguments[0].scrollIntoView();", Element);
             Thread.sleep(2000);
             clickView(MountainFoxNotebook);
@@ -69,8 +65,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
         @Test
         public void TestDescription() throws InterruptedException
         {
-            Description();
+            Description("mountain");
             Thread.sleep(1000);
-            Assertions.assertTrue(driver.findElement(By.xpath(Mountain)).isDisplayed());
-        }*/
+            Assertions.assertTrue(driver.findElement(By.xpath(description)).isDisplayed());
+        }
     }
