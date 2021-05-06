@@ -13,8 +13,11 @@ pipeline {
     }
     stages {
         stage ('Build') {
+
            steps {
-                 bat 'mvn clean install'
+
+                 bat 'mvn -DWebDriver=Chrome -Dmaven.test.failure.ignore=true clean install'
+
             }
             post {
                 success {
@@ -23,12 +26,12 @@ pipeline {
             } 
         }
 		
-		stage("test") {
+	/*	stage("test") {
             steps {
                 echo 'testing the application...'
                 bat "mvn -Dmaven.test.failure.ignore=true test"
             }
-        }
+        } */
         /*stage ('Run Jmeter tests') {
             steps {
               echo '' bat 'C:\\Tools\\apache-jmeter-5.4.1\\bin\\jmeter.bat -jjmeter.save.saveservice.output_format=xml -n -t C:\\Tools\\apache-jmeter-5.4.1\\bin\\FinalProject.jmx -l C:\\Tools\\apache-jmeter-5.4.1\\bin\\jmeter_report.jtl'
