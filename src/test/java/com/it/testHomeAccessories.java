@@ -66,7 +66,7 @@ public class testHomeAccessories extends HomeAccessories{
 
         assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/home-accessories/8-mug-today-is-a-good-day.html");
     }
-    @Test
+   /* @Test
     public void testAddToCart() throws InterruptedException {
         int windowCount = driver.getWindowHandles().size();
         Thread.sleep(1000);
@@ -85,9 +85,7 @@ public class testHomeAccessories extends HomeAccessories{
 
         Assertions.assertEquals(windowCount, currentSize);
 
-
-
-    }
+    }*/
     @Test
     public void testDesciption() throws InterruptedException {
         Thread.sleep(1000);

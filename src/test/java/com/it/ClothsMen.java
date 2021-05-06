@@ -26,7 +26,7 @@ public class ClothsMen extends BaseClass {
 
 
     //Navigate to cloths men page
-    public void SelectMen() throws InterruptedException {
+    public static void SelectMen() throws InterruptedException {
         WebElement E1, E2;
         E1 = driver.findElement(By.id("category-3"));
         Actions action = new Actions(driver);
@@ -41,7 +41,7 @@ public class ClothsMen extends BaseClass {
     }
 
     //Filter by SIZE
-    public void ChooseSize(String Size) throws InterruptedException
+    public static void ChooseSize(String Size) throws InterruptedException
     {
         driver.findElement(By.xpath(Size)).click();
         Thread.sleep(1000);

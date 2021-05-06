@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
@@ -20,11 +21,21 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestStationary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestStationary.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" afterDir="false" />
+>>>>>>> 1be431877e0cd2ee5e5f3f49735c56bb13dfa33c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +56,36 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.com.it in Group2">
+    <configuration name="TestArtPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.it" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.it in Group2">
+    <configuration name="Feature: Cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Cucumber.feature" />
+      <option name="GLUE" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+>>>>>>> 1be431877e0cd2ee5e5f3f49735c56bb13dfa33c
+      <module name="Group2" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Cucumber" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestArtPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -61,38 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArtPage.TestAddToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestArtPage" />
-      <option name="METHOD_NAME" value="TestAddToCart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestArtPage.TestComposition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestArtPage" />
-      <option name="METHOD_NAME" value="TestComposition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestClothsMen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
@@ -103,6 +111,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.it" />
       <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,10 +148,18 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.it in Group2" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="JUnit.TestRunner" />
+>>>>>>> 1be431877e0cd2ee5e5f3f49735c56bb13dfa33c
         <item itemvalue="JUnit.TestClothsMen" />
+        <item itemvalue="Cucumber Java.Feature: Cucumber" />
         <item itemvalue="JUnit.TestArtPage" />
+<<<<<<< HEAD
         <item itemvalue="JUnit.TestArtPage.TestAddToCart" />
         <item itemvalue="JUnit.TestArtPage.TestComposition" />
+=======
+>>>>>>> 1be431877e0cd2ee5e5f3f49735c56bb13dfa33c
       </list>
     </recent_temporary>
   </component>

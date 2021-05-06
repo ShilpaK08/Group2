@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ClothesWomen extends BaseClass {
 
-    public String Relevance = "//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]";
+    public static String Relevance = "//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]";
     public static String Quickview = "/html/body/main/section/div/div[1]/div[2]/div[2]/section[5]/p";
 
     public void TestUrl() throws InterruptedException {
@@ -23,7 +23,7 @@ public class ClothesWomen extends BaseClass {
     }
 
 
-    public void sortBy(String Relevance, int index) {
+    public static void sortBy(String Relevance, int index) {
         driver.get("http://40.76.27.113:8085/en/5-women");
         //Select SelectDropdown = new Select(driver.findElement(By.xpath("//body/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]")));
 
