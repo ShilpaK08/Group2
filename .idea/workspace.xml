@@ -6,23 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/SwedishFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/SwedishFooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestStationary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestsFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestsFooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestArtPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestArtPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClotheswomen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClotheswomen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClothsMen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClothsMen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSearchFunction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSearchFunction.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestStationary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestStationary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestArtPage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestArtPage.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClotheswomen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClotheswomen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestStationary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestStationary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,27 +43,8 @@
       <recent name="com.it" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestsFooter">
-    <configuration name="Feature: Cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Cucumber.feature" />
-      <option name="GLUE" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Group2" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Cucumber" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClothsMen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAddresser">
+    <configuration name="TestAddresser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +53,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestClothsMen" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestAddresser" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAdresser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestAdresser" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAddresser" />
+        <item itemvalue="JUnit.TestAdresser" />
         <item itemvalue="JUnit.TestsFooter" />
         <item itemvalue="JUnit.com.it in Group2" />
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="JUnit.TestClothsMen" />
-        <item itemvalue="Cucumber Java.Feature: Cucumber" />
       </list>
     </recent_temporary>
   </component>
