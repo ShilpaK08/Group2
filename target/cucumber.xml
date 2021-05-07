@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.522">
+    <testcase classname="Functional testing in Mystore app" name="User verification for filter options in different catalogs" time="13.35">
+        <system-out><![CDATA[Given user is on the mystore page...........................................passed
+And user click on Signin link...............................................passed
+And user enter the emailandPWD..............................................passed
+When user click on signin button............................................passed
+Then MyStore home page displayed............................................passed
+And user navigate to cloths men page........................................passed
+When user select the size M.................................................passed
+Then user verified size M is enabled........................................passed
+And user is on the art page.................................................passed
+When user select dimensions sixtyninty......................................passed
+Then the user virified selected dimension is enabled........................passed
+And user is on clothes women page...........................................passed
+When user select sortby index 1.............................................passed
+Then Name A to Z selected in sortby dropdown................................passed
+And user enter mug in search bar............................................passed
+Then verifes the current url................................................passed
+Then user close the window..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

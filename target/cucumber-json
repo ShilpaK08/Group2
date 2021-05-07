@@ -1,0 +1,232 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-07T09:34:13.936Z",
+        "line": 5,
+        "name": "User verification for filter options in different catalogs",
+        "description": "",
+        "id": "functional-testing-in-mystore-app;user-verification-for-filter-options-in-different-catalogs",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2897806000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on the mystore page",
+            "match": {
+              "location": "com.it.CucumberSteps.user_is_on_the_mystore_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 525251400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Signin link",
+            "match": {
+              "location": "com.it.CucumberSteps.user_click_on_Signin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232303000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the emailandPWD",
+            "match": {
+              "location": "com.it.CucumberSteps.user_enter_the_emailandPWD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 606816900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on signin button",
+            "match": {
+              "location": "com.it.CucumberSteps.user_click_on_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "MyStore home page displayed",
+            "match": {
+              "location": "com.it.CucumberSteps.MyStore_home_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1635815600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user navigate to cloths men page",
+            "match": {
+              "location": "com.it.CucumberSteps.user_navigate_to_cloths_men_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1082033300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user select the size M",
+            "match": {
+              "location": "com.it.CucumberSteps.user_select_the_size_m()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18857900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user verified size M is enabled",
+            "match": {
+              "location": "com.it.CucumberSteps.user_verified_size_m_is_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 493532200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on the art page",
+            "match": {
+              "location": "com.it.CucumberSteps.user_is_on_the_art_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2390504000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user select dimensions sixtyninty",
+            "match": {
+              "location": "com.it.CucumberSteps.user_select_dimensions_sixtyninty()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18863300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user virified selected dimension is enabled",
+            "match": {
+              "location": "com.it.CucumberSteps.the_user_virified_selected_dimension_is_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 772972000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on clothes women page",
+            "match": {
+              "location": "com.it.CucumberSteps.user_is_on_clothes_women_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1365108700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user select sortby index 1",
+            "match": {
+              "location": "com.it.CucumberSteps.user_select_sortby_index_1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14820200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Name A to Z selected in sortby dropdown",
+            "match": {
+              "location": "com.it.CucumberSteps.Name_A_to_Z_selected_in_sortby_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 453353900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter mug in search bar",
+            "match": {
+              "location": "com.it.CucumberSteps.user_enter_mug_in_search_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10973500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verifes the current url",
+            "match": {
+              "location": "com.it.CucumberSteps.verifes_the_current_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 755992200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user close the window",
+            "match": {
+              "location": "com.it.CucumberSteps.user_close_the_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testing"
+          }
+        ]
+      }
+    ],
+    "name": "Functional testing in Mystore app",
+    "description": "",
+    "id": "functional-testing-in-mystore-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Cucumber.feature",
+    "tags": []
+  }
+]
