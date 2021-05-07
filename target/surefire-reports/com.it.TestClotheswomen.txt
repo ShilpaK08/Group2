@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.it.TestClotheswomen
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.858 s - in com.it.TestClotheswomen
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.053 s - in com.it.TestClotheswomen

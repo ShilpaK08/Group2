@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.it.TestStationary" time="13.836" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.it.TestLogin" time="5.198" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="C:\WebDriver\bin\chromedriver.exe"/>
@@ -57,18 +57,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testItem" classname="com.it.TestStationary" time="5.414">
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 23436
+  <testcase name="loginErrorMessage" classname="com.it.TestLogin" time="2.29">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41892
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 07, 2021 11:34:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 07, 2021 11:33:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 07, 2021 11:34:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 07, 2021 11:33:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 86
-May 07, 2021 11:34:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 07, 2021 11:33:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 90 of 86
 ]]></system-err>
   </testcase>
-  <testcase name="testDropDown" classname="com.it.TestStationary" time="4.74"/>
 </testsuite>
