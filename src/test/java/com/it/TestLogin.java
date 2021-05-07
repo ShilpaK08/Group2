@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LoginAccount extends BaseClass{
+public class TestLogin extends BaseClass{
     
 
     @Test
