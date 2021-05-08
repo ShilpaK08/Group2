@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.it.TestHomeAccessories" time="54.772" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.it.TestClotheswomenSv" time="18.062" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="C:\WebDriver\bin\chromedriver.exe"/>
@@ -57,25 +57,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testOneItem" classname="com.it.TestHomeAccessories" time="3.719">
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 6623
+  <testcase name="testProceedToCheckout" classname="com.it.TestClotheswomenSv" time="4.774">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 3377
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 08, 2021 10:57:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 08, 2021 10:56:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 08, 2021 10:57:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 08, 2021 10:56:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 86
-May 08, 2021 10:57:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 08, 2021 10:56:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 90 of 86
 ]]></system-err>
   </testcase>
-  <testcase name="testDesciption" classname="com.it.TestHomeAccessories" time="4.54"/>
-  <testcase name="testComposition" classname="com.it.TestHomeAccessories" time="2.957"/>
-  <testcase name="testBrand" classname="com.it.TestHomeAccessories" time="2.996"/>
-  <testcase name="testColor" classname="com.it.TestHomeAccessories" time="2.946"/>
-  <testcase name="testqView" classname="com.it.TestHomeAccessories" time="4.105"/>
-  <testcase name="testShareLink" classname="com.it.TestHomeAccessories" time="4.423"/>
-  <testcase name="testProperty" classname="com.it.TestHomeAccessories" time="12.962"/>
-  <testcase name="testDropDown" classname="com.it.TestHomeAccessories" time="11.328"/>
+  <testcase name="testproductPicture" classname="com.it.TestClotheswomenSv" time="0.907"/>
+  <testcase name="testFilterBy" classname="com.it.TestClotheswomenSv" time="1.651"/>
+  <testcase name="testAddtoCart" classname="com.it.TestClotheswomenSv" time="1.262"/>
+  <testcase name="testSortBy" classname="com.it.TestClotheswomenSv" time="0.709">
+    <system-out><![CDATA[testing Sort Method
+]]></system-out>
+  </testcase>
+  <testcase name="testQuickviewUpdate" classname="com.it.TestClotheswomenSv" time="0.7"/>
+  <testcase name="testcontinueShopping" classname="com.it.TestClotheswomenSv" time="3.249"/>
 </testsuite>
