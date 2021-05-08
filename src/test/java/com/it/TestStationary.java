@@ -14,7 +14,7 @@ public class TestStationary extends Stationary
         Thread.sleep(2000);
         openStationary(Accessories);
         Thread.sleep(2000);
-        assertTrue(driver.findElement(By.xpath(paperType)).isEnabled());
+        Assertions.assertTrue(driver.findElement(By.xpath(paperType)).isEnabled());
     }
 
     @Test
@@ -24,7 +24,7 @@ public class TestStationary extends Stationary
         openStationary(Accessories);
         Thread.sleep(2000);
         selectDropDown(SortByRelevance, 1);
-        assertTrue(driver.findElement(By.xpath(SortByRelevance)).isEnabled());
+        Assertions.assertTrue(driver.findElement(By.xpath(SortByRelevance)).isEnabled());
     }
 
 
@@ -35,7 +35,7 @@ public class TestStationary extends Stationary
         openStationary(Accessories);
         Thread.sleep(2000);
         item(MountainFoxNotebook);
-        assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
+        Assertions.assertEquals(driver.getCurrentUrl(), "http://40.76.27.113:8085/en/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled");
     }
 
     @Test

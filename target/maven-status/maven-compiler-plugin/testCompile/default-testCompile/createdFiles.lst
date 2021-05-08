@@ -1,14 +1,5 @@
-com\it\TestArtPage.class
-com\it\TestClotheswomen.class
-com\it\TestClothsMen.class
-com\it\TestSearchFunction.class
-com\it\ClothsMen.class
-com\it\BaseClass.class
-com\it\ArtPage.class
-com\it\Stationary.class
 com\it\PageSearch.class
-com\it\TestStationary.class
-com\it\TestHomeAccessories.class
-com\it\HomeAccessories.class
+com\it\TestClotheswomen.class
+com\it\BaseClass.class
 com\it\ClothesWomen.class
-com\it\TestLogin.class
+com\it\Stationary.class
