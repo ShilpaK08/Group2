@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.it.TestHomeAccessories
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.772 s - in com.it.TestHomeAccessories
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.494 s - in com.it.TestHomeAccessories

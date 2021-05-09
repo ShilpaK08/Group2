@@ -6,7 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="3ca601f4-3822-4141-9f9d-80941f8a3ee8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestAddresser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestAddresser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it/TestAddresser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it/TestAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestAddresser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestArtPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestArtPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClotheswomen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClotheswomen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClotheswomenSv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClotheswomenSv.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClothsMen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestClothsMen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestHomeAccessories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestHomeAccessories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestLogin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSearchFunction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSearchFunction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestStationary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestStationary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSubscribeNews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestSubscribeNews.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestsFooter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.it.TestsFooter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestAddresser.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestArtPage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestArtPage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClotheswomen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClotheswomen.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClotheswomenSv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClotheswomenSv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestClothsMen.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestHomeAccessories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestHomeAccessories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestLogin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestLogin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSearchFunction.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestStationary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestStationary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSubscribeNews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestSubscribeNews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.it.TestsFooter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.it.TestsFooter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/it/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/it/TestAddresser.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +80,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestAddresser">
-    <configuration name="TestAddresser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group2" />
       <extension name="coverage">
         <pattern>
@@ -57,7 +89,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.it" />
-      <option name="MAIN_CLASS_NAME" value="com.it.TestAddresser" />
+      <option name="MAIN_CLASS_NAME" value="com.it.TestAddress" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />

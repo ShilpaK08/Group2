@@ -1,4 +1,3 @@
-com\it\TestAddresser.class
 com\it\SwedishFooter.class
 com\it\TestArtPage.class
 com\it\ClothesWomenSv.class
@@ -19,5 +18,6 @@ com\it\CucumberSteps.class
 com\it\HomeAccessories.class
 com\it\TestClotheswomenSv.class
 com\it\ClothesWomen.class
+com\it\TestAddress.class
 com\it\TestSubscribeNews.class
 com\it\TestLogin.class

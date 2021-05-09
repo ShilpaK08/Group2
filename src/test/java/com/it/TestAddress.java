@@ -1,8 +1,5 @@
 package com.it;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TestAddresser {
+public class TestAddress {
 
     public static WebDriver driver;
 
