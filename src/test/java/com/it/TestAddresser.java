@@ -14,10 +14,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestAddresser {
 
-    static WebDriver driver = new ChromeDriver();
+    public static WebDriver driver;
 
     @BeforeAll
     public static void open (){
+
+        driver = new ChromeDriver();
         driver.get("http://40.76.27.113:8085/sv/");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id=\"_desktop_user_info\"]/div/a/span")).click();
